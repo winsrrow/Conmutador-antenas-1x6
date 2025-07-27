@@ -1,0 +1,130 @@
+(kicad_sch
+	(version 20250610)
+	(generator "eeschema")
+	(generator_version "9.99")
+	(uuid "72f3b6e6-da3c-4000-9d71-e795e53b6cc6")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 114.3 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5618abbd-e4c3-4036-8c70-3c44b3f19c69")
+	)
+	(sheet
+		(at 127 63.5)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5ca5cf36-3ee0-47b7-90c3-546bde410e83")
+		(property "Sheetname" "Reles"
+			(at 127 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Reles.kicad_sch"
+			(at 127 76.7846 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Antena-[1..6]" input
+			(at 127 69.85 180)
+			(uuid "7e9fd645-725c-4a5d-8d04-6c2a6343a24b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 63.5)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9df67ef4-f5d9-4d50-8e52-14f85ef5e6e8")
+		(property "Sheetname" "Controlador"
+			(at 88.9 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Controlador.kicad_sch"
+			(at 88.9 76.7846 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT_{[1..6]}" output
+			(at 114.3 69.85 0)
+			(uuid "bd7bfece-6e0d-4b10-a5e1-a867a9421ab4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

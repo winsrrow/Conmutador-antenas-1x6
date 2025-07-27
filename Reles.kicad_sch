@@ -1,0 +1,11394 @@
+(kicad_sch
+	(version 20250610)
+	(generator "eeschema")
+	(generator_version "9.99")
+	(uuid "2f3907c9-15be-492f-befe-0e8a781376d1")
+	(paper "A4")
+	(title_block
+		(title "Conmutador de antenas 1x6")
+		(date "2023-08-06")
+		(rev "V0.0.1")
+		(company "WSW electrónica")
+	)
+	(lib_symbols
+		(symbol "Cpower:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#GND"
+				(at 2.54 1.27 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 1.27 1.27 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "schematic:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "schematic:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "schematic:D_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode, filled shape"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Filled_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "schematic:LED_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode, filled shape"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Filled_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LED_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "schematic:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "schematic:Rele_2Conm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K"
+				(at -1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Rele_2Conm_0_1"
+				(rectangle
+					(start -15.24 5.08)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -13.335 1.905)
+					(end -6.985 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -1.905) (xy -7.62 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 5.08) (xy -10.16 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -5.08) (xy -10.16 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 0) (xy -6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 2.54) (xy -1.905 3.175) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 1.905 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 8.255 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0) (xy 8.89 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.255 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 5.08) (xy 12.7 2.54) (xy 12.065 3.175) (xy 12.7 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Rele_2Conm_1_1"
+				(pin passive line
+					(at -10.16 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "schematic:Screw_Terminal_01x07"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x07"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x07_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 7.9502) (xy 0.3302 7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 5.4102) (xy 0.3302 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -7.2898) (xy 0.3302 -8.128)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 8.128) (xy 0.508 7.2898)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 5.588) (xy 0.508 4.7498)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -7.112) (xy 0.508 -7.9502)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "RF - IN"
+		(exclude_from_sim no)
+		(at 29.21 68.58 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "05b1660d-1e54-4aa3-8766-8da7063a90fd")
+	)
+	(text "Conmutación de antenas y protección de los relés"
+		(exclude_from_sim no)
+		(at 72.39 25.4 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b088cc1-ba9c-4090-8ab4-3ec1837b1c38")
+	)
+	(text "Indicación y protecciones de las señales de control"
+		(exclude_from_sim no)
+		(at 72.39 128.27 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "3197bb58-e09a-40ad-9080-37f0225d2433")
+	)
+	(text "Notas"
+		(exclude_from_sim no)
+		(at 29.21 101.6 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "60fd8c59-65fb-4b8a-bc46-3142544b7907")
+	)
+	(text "Señales de RF:"
+		(exclude_from_sim no)
+		(at 26.67 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "794f3689-a70f-4a77-b41d-9233b11c52e2")
+	)
+	(text "Control"
+		(exclude_from_sim no)
+		(at 29.21 29.21 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c63603f-36b5-42d5-8fa6-93d375115aa1")
+	)
+	(text "Conectores"
+		(exclude_from_sim no)
+		(at 29.21 25.4 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f3c8e3a-6133-4144-97ab-4bd5e626e0a8")
+	)
+	(text "12V @ 20mA"
+		(exclude_from_sim no)
+		(at 26.67 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91365442-41f4-464e-b6b7-08050a50d0c3")
+	)
+	(text "Señales de control:"
+		(exclude_from_sim no)
+		(at 26.67 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0284328-bd05-4a0f-9207-718b391caaee")
+	)
+	(text "100W @ 3-30MHz"
+		(exclude_from_sim no)
+		(at 26.67 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1d16f30-f887-4294-b933-b344885f84db")
+	)
+	(junction
+		(at 219.71 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04263563-5dcb-4647-af28-7c2d3ae95780")
+	)
+	(junction
+		(at 184.15 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07613b1e-f6ba-4e4b-989e-1c773599821e")
+	)
+	(junction
+		(at 92.71 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08a3ab9c-043e-4043-916b-600decaac5a5")
+	)
+	(junction
+		(at 165.1 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f3905ca-67e5-4a61-9df0-16a6628ad262")
+	)
+	(junction
+		(at 92.71 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18a313bb-311a-44a3-8e49-f8cfc0c570c0")
+	)
+	(junction
+		(at 215.9 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "200e92b2-0914-4696-8d17-0613df90ecd4")
+	)
+	(junction
+		(at 171.45 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2479cb47-28cf-4577-a3bd-55e7d71043c7")
+	)
+	(junction
+		(at 123.19 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26c28cd8-ddc0-4aea-9b6e-1d568dc2c271")
+	)
+	(junction
+		(at 107.95 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2821b5c4-e3f8-4002-9090-7ecb03689eaf")
+	)
+	(junction
+		(at 88.9 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ba55850-cb67-49cd-9baf-06b3feb81721")
+	)
+	(junction
+		(at 88.9 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c27e327-5f7f-4f2e-8385-24da7f16c9e3")
+	)
+	(junction
+		(at 67.31 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47f64b42-1e09-4a50-a471-21394f9b8397")
+	)
+	(junction
+		(at 156.21 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c76e262-4dd0-46a6-b64b-87d3ab44251b")
+	)
+	(junction
+		(at 215.9 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f3eb23c-29bb-4bd7-bbd6-54f932c98790")
+	)
+	(junction
+		(at 107.95 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f52644c-c6cb-416c-a6b9-67e80f43a19c")
+	)
+	(junction
+		(at 247.65 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60b025fc-b704-48dd-b412-f5f343f7f8fb")
+	)
+	(junction
+		(at 53.34 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61e2cd25-74a0-4995-9327-29b623dc6e4b")
+	)
+	(junction
+		(at 234.95 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "673bb6a8-7693-4be8-b501-6998732b1c26")
+	)
+	(junction
+		(at 171.45 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ec7a588-a895-493b-88f4-7a60575332aa")
+	)
+	(junction
+		(at 139.7 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f553ded-572c-4e93-8a3f-036f163b8246")
+	)
+	(junction
+		(at 184.15 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83f686f5-215d-4bee-b066-28772b7f8a4c")
+	)
+	(junction
+		(at 114.3 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "848840f9-5224-4332-bb24-41eb56a4deda")
+	)
+	(junction
+		(at 234.95 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "884a0ed4-edfc-4716-a5eb-339d25cb41ef")
+	)
+	(junction
+		(at 156.21 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bbd2d12-e60b-4d3e-9e50-4c1eb4683a6d")
+	)
+	(junction
+		(at 152.4 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d1685c6-0c2e-492a-afd3-dff486c1f61d")
+	)
+	(junction
+		(at 219.71 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f722194-6e56-4572-a7ac-fa31b745d9fc")
+	)
+	(junction
+		(at 190.5 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a568f30-309a-4ac4-bb9c-e38153db1611")
+	)
+	(junction
+		(at 120.65 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a767ad99-d7cf-4f18-8563-3fa9f47ca0d0")
+	)
+	(junction
+		(at 113.03 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac63d19a-8307-47e9-ac00-d1f8f7e73828")
+	)
+	(junction
+		(at 88.9 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad58a6ee-3798-4f66-9ae7-3f952757e025")
+	)
+	(junction
+		(at 120.65 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8704143-4baa-4fba-8ab4-893aba806764")
+	)
+	(junction
+		(at 176.53 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8d4b10a-bf71-4ffa-89fb-785acf24a178")
+	)
+	(junction
+		(at 215.9 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d12adb43-7cec-4b3a-905c-de2d2b59c91b")
+	)
+	(junction
+		(at 247.65 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2fe5689-85d1-4b40-a6da-ec81b4d464bb")
+	)
+	(junction
+		(at 69.85 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3734880-d759-4447-a042-1931ed73b6fa")
+	)
+	(junction
+		(at 39.37 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d375183d-b035-442b-b4bc-83686c2c861a")
+	)
+	(junction
+		(at 186.69 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4197623-c6fb-4cb6-a385-39a1ab78f6eb")
+	)
+	(junction
+		(at 240.03 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eddbba76-b359-42eb-ac84-12d42d3fba56")
+	)
+	(junction
+		(at 250.19 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efa9fa8b-affe-4779-8a06-bffe89c440ca")
+	)
+	(junction
+		(at 152.4 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f96c4155-ed7e-49e7-9ceb-00a8731be3c1")
+	)
+	(bus_entry
+		(at 48.26 44.45)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204b13ad-7028-437f-bf8a-2e223225e8f2")
+	)
+	(bus_entry
+		(at 74.93 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2242d301-aece-432f-917b-6023dc80abaa")
+	)
+	(bus_entry
+		(at 201.93 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2535d430-2259-4af7-b0a5-b40d8fe7f5ed")
+	)
+	(bus_entry
+		(at 48.26 52.07)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a199fa7-79da-41e2-8e6e-aff077b016f6")
+	)
+	(bus_entry
+		(at 138.43 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485d7b86-67e0-4ac3-90b0-7a6b745110c1")
+	)
+	(bus_entry
+		(at 138.43 31.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d82adcb-2155-4622-b22b-a51851d15b5c")
+	)
+	(bus_entry
+		(at 100.33 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64038507-c4dc-4227-818e-4faeeae81f31")
+	)
+	(bus_entry
+		(at 48.26 39.37)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7450e879-7c4d-4011-ae65-fff53552d480")
+	)
+	(bus_entry
+		(at 176.53 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992396a6-d5db-4cbc-bd6e-3625050fd148")
+	)
+	(bus_entry
+		(at 201.93 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e018840-33b0-466f-aa06-814815997a57")
+	)
+	(bus_entry
+		(at 48.26 41.91)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4cb8554-e219-45ce-aec1-a8821c8d1ace")
+	)
+	(bus_entry
+		(at 151.13 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ee7d8c-f81a-43bf-8247-fa1b105e7bb2")
+	)
+	(bus_entry
+		(at 74.93 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d699ee-46a6-4cd2-bfd8-32b96597d8ed")
+	)
+	(bus_entry
+		(at 201.93 31.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df4301df-ae07-438f-ac96-78248fb9a371")
+	)
+	(bus_entry
+		(at 125.73 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e15e5f-922e-43d9-b45b-98431e1cd6f3")
+	)
+	(bus_entry
+		(at 48.26 49.53)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87dccdb-da68-47f2-a1d6-0ba49bbfd7f4")
+	)
+	(bus_entry
+		(at 74.93 31.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ac8328-ab68-4523-aec2-197d7d257107")
+	)
+	(bus_entry
+		(at 48.26 46.99)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fedf22e1-0471-44c7-8bb5-dd841acd3a95")
+	)
+	(wire
+		(pts
+			(xy 165.1 148.59) (xy 165.1 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0043fb04-7b1c-452d-9364-a6eedf262c2a")
+	)
+	(bus
+		(pts
+			(xy 69.85 34.29) (xy 69.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008ac400-86a1-4e93-b156-305b792346ba")
+	)
+	(bus
+		(pts
+			(xy 138.43 76.2) (xy 201.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014119e0-44df-4692-b125-0968e1eed4e7")
+	)
+	(wire
+		(pts
+			(xy 215.9 158.75) (xy 215.9 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d864b2-a94c-4de8-89b3-23162d64e88f")
+	)
+	(wire
+		(pts
+			(xy 102.87 138.43) (xy 114.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025122c7-eede-482c-ab98-61862af2f178")
+	)
+	(wire
+		(pts
+			(xy 245.11 101.6) (xy 245.11 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041454c3-8902-4a17-8a7b-ed8858527e78")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 110.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0580d001-a9eb-4af6-9018-982d665a3175")
+	)
+	(wire
+		(pts
+			(xy 184.15 86.36) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e60bc1-ac9d-4ee5-a650-ba3722a12d87")
+	)
+	(polyline
+		(pts
+			(xy 26.67 29.21) (xy 62.23 29.21)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "0703ff3f-ca7a-404e-87fb-b1917085e612")
+	)
+	(polyline
+		(pts
+			(xy 266.7 120.65) (xy 266.7 17.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "07656b60-020f-4a92-99c7-2d3ac931a096")
+	)
+	(wire
+		(pts
+			(xy 256.54 67.31) (xy 256.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a90b6d-10f3-4bfc-983b-ef4dca176db4")
+	)
+	(wire
+		(pts
+			(xy 88.9 93.98) (xy 88.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ee3911-cf3e-4f05-9ceb-fe6d529cc24d")
+	)
+	(polyline
+		(pts
+			(xy 26.67 25.4) (xy 62.23 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082483c3-4753-45fe-b7e9-4bdfa20279ba")
+	)
+	(wire
+		(pts
+			(xy 153.67 135.89) (xy 153.67 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0828740e-b0cd-44ed-8be7-8be397fcc4d4")
+	)
+	(wire
+		(pts
+			(xy 118.11 59.69) (xy 107.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08765fa5-5e08-41e3-8000-13e46b8a319b")
+	)
+	(wire
+		(pts
+			(xy 152.4 81.28) (xy 156.21 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09911172-6101-45b1-8a83-6325d6c75213")
+	)
+	(wire
+		(pts
+			(xy 204.47 34.29) (xy 204.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a84b69-4ef8-4a3b-b26e-ac3c5aa7e4c1")
+	)
+	(wire
+		(pts
+			(xy 240.03 36.83) (xy 240.03 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09dd6004-d8d8-4165-b1d6-4300deac8a97")
+	)
+	(wire
+		(pts
+			(xy 245.11 39.37) (xy 234.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c36d032-adda-48f6-b0ac-6b3820d8b553")
+	)
+	(wire
+		(pts
+			(xy 184.15 62.23) (xy 187.96 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db98247-93da-4aad-98da-a91baed0b14d")
+	)
+	(wire
+		(pts
+			(xy 36.83 46.99) (xy 48.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de73bfa-419b-46b2-92ce-e878405b1d5b")
+	)
+	(wire
+		(pts
+			(xy 140.97 78.74) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecdf20b-72bd-48d3-a350-96442275b38a")
+	)
+	(polyline
+		(pts
+			(xy 26.67 101.6) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7a5455-184f-4018-99bf-965f2d6a09b9")
+	)
+	(bus
+		(pts
+			(xy 125.73 133.35) (xy 151.13 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126ef289-0f48-40b6-aa4d-611c6c3c3027")
+	)
+	(wire
+		(pts
+			(xy 190.5 138.43) (xy 190.5 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129a0869-7ce8-470a-8c19-11eefe40fa71")
+	)
+	(wire
+		(pts
+			(xy 88.9 36.83) (xy 92.71 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f2e0ed-a2b7-40ef-bdac-5232c0345864")
+	)
+	(wire
+		(pts
+			(xy 227.33 57.15) (xy 227.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132dc314-f709-4d78-8051-51872bdd5799")
+	)
+	(polyline
+		(pts
+			(xy 64.77 128.27) (xy 68.58 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146bfee0-c3f1-4133-bcf9-096b787a3486")
+	)
+	(wire
+		(pts
+			(xy 128.27 135.89) (xy 128.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1515fce4-daa4-4738-be3d-4d508b320c16")
+	)
+	(wire
+		(pts
+			(xy 190.5 148.59) (xy 190.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1627bbac-4c68-4324-bfdb-a340f9f81ab4")
+	)
+	(wire
+		(pts
+			(xy 237.49 81.28) (xy 247.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179d6ed9-be02-432b-8b7c-e20c115a1713")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 88.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1863985c-21ac-46c3-87dc-61909b160437")
+	)
+	(wire
+		(pts
+			(xy 39.37 54.61) (xy 40.64 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a1bedc-9042-4fa0-851f-a7434f9fa9b8")
+	)
+	(wire
+		(pts
+			(xy 186.69 106.68) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19abc487-a70f-4fdc-98dc-e0e2ad5a51fc")
+	)
+	(wire
+		(pts
+			(xy 36.83 54.61) (xy 39.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d1ef6a-7013-434b-ab18-64e7b79812f7")
+	)
+	(wire
+		(pts
+			(xy 193.04 67.31) (xy 193.04 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a092db9-a136-4125-9ab8-ce6bc7fb9e12")
+	)
+	(bus
+		(pts
+			(xy 50.8 36.83) (xy 50.8 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e646f36-7f5f-43fc-82d9-a9965fad9396")
+	)
+	(wire
+		(pts
+			(xy 237.49 62.23) (xy 247.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20691b57-2598-488e-9011-9d8e9f84c715")
+	)
+	(polyline
+		(pts
+			(xy 26.67 105.41) (xy 57.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "20c28060-f6a9-46d6-83e3-7c0b9b1455f2")
+	)
+	(bus
+		(pts
+			(xy 50.8 34.29) (xy 53.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23255d8b-8f95-4024-9160-a6afa7ccb3d3")
+	)
+	(wire
+		(pts
+			(xy 179.07 138.43) (xy 190.5 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b71103-ef98-4f61-ac46-f0f2f03d72c4")
+	)
+	(polyline
+		(pts
+			(xy 71.12 128.27) (xy 265.43 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2428725f-3a24-4e66-8726-7223fe8c5dfb")
+	)
+	(wire
+		(pts
+			(xy 181.61 101.6) (xy 181.61 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f1ed83-9c3a-48d5-a326-ea28ac244535")
+	)
+	(wire
+		(pts
+			(xy 153.67 138.43) (xy 165.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25606e08-794e-41cf-8dd8-75c3f3312c77")
+	)
+	(wire
+		(pts
+			(xy 120.65 41.91) (xy 120.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e32c5f8-ced4-41c5-96be-7a440bd219b7")
+	)
+	(polyline
+		(pts
+			(xy 63.5 120.65) (xy 266.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "2fb0d08b-1694-4949-bdf8-b4722e8a9091")
+	)
+	(polyline
+		(pts
+			(xy 26.67 110.49) (xy 57.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "30a8f293-f811-4a79-b5fd-7e683da20371")
+	)
+	(wire
+		(pts
+			(xy 245.11 104.14) (xy 234.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312bae40-6aef-42ab-bb6a-45db8b89b653")
+	)
+	(bus
+		(pts
+			(xy 50.8 44.45) (xy 50.8 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3210119d-f9df-4e46-9684-8d9b7b03cfc0")
+	)
+	(wire
+		(pts
+			(xy 219.71 81.28) (xy 227.33 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ff2cf9-92a3-45ec-afec-e6a72c6a5735")
+	)
+	(polyline
+		(pts
+			(xy 64.77 25.4) (xy 265.43 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345890f3-1ebc-4e40-9192-805b8bc93459")
+	)
+	(wire
+		(pts
+			(xy 219.71 49.53) (xy 219.71 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352039d6-4ac3-4fd4-aae6-7780847cbfcf")
+	)
+	(wire
+		(pts
+			(xy 114.3 149.86) (xy 114.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c51964-fd6e-4bc0-ae2f-c3940bfe8e79")
+	)
+	(wire
+		(pts
+			(xy 190.5 149.86) (xy 195.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3783d348-294b-4ece-bfe1-3102af4c59fd")
+	)
+	(wire
+		(pts
+			(xy 123.19 62.23) (xy 113.03 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d6264d-8e3a-42f0-9ce0-e2efbdc8b1db")
+	)
+	(wire
+		(pts
+			(xy 186.69 106.68) (xy 186.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "392520cd-3f32-4641-b923-0390a6fbd72d")
+	)
+	(wire
+		(pts
+			(xy 118.11 86.36) (xy 118.11 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a04ff6-420e-4d81-8c58-8b8ba40626fa")
+	)
+	(wire
+		(pts
+			(xy 163.83 101.6) (xy 163.83 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b547ce2-e35c-45bb-9137-22eb2285ff10")
+	)
+	(wire
+		(pts
+			(xy 237.49 86.36) (xy 237.49 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d393227-1b8b-4abc-86e5-3cbe3ff279df")
+	)
+	(wire
+		(pts
+			(xy 219.71 36.83) (xy 219.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e21349f-6f8c-4be6-84f3-6abce0713ebb")
+	)
+	(wire
+		(pts
+			(xy 163.83 41.91) (xy 163.83 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa41f3a-000c-4e65-b771-e4fef3fe017b")
+	)
+	(wire
+		(pts
+			(xy 234.95 36.83) (xy 240.03 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4062feb7-4fcb-486b-9b67-07c8f702f1e6")
+	)
+	(bus
+		(pts
+			(xy 74.93 76.2) (xy 138.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437c4605-e79e-4d82-9cd8-879d4e317672")
+	)
+	(wire
+		(pts
+			(xy 88.9 149.86) (xy 88.9 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44dbe922-8249-4ef7-9f66-969cf01910aa")
+	)
+	(wire
+		(pts
+			(xy 107.95 57.15) (xy 107.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f98588-6cd1-4832-a994-4c4b2aaa4752")
+	)
+	(wire
+		(pts
+			(xy 184.15 80.01) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45118236-1ade-4274-8ecb-427a31a0986f")
+	)
+	(wire
+		(pts
+			(xy 215.9 149.86) (xy 220.98 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458e65c8-5196-44c1-84ca-61a13eb4ce9c")
+	)
+	(polyline
+		(pts
+			(xy 25.4 17.78) (xy 25.4 165.1)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "459db3a4-26da-49b4-99fc-f4cf89a74eb2")
+	)
+	(wire
+		(pts
+			(xy 120.65 35.56) (xy 120.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46df1120-aec9-40bc-be57-dd081e78cbeb")
+	)
+	(wire
+		(pts
+			(xy 102.87 83.82) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4810e294-c5dd-4957-a8e1-00afe1fec779")
+	)
+	(bus
+		(pts
+			(xy 69.85 73.66) (xy 72.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48547f94-4234-4d69-b12f-f4a200308a7b")
+	)
+	(wire
+		(pts
+			(xy 118.11 57.15) (xy 118.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48aa62a4-7b3a-4912-9d70-0c0e43371a42")
+	)
+	(wire
+		(pts
+			(xy 165.1 149.86) (xy 170.18 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd4b30f-1ce1-409b-bbca-acf8d8f8abd2")
+	)
+	(wire
+		(pts
+			(xy 110.49 41.91) (xy 110.49 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500cde38-65e9-48a0-a43a-b701586cfe90")
+	)
+	(wire
+		(pts
+			(xy 139.7 158.75) (xy 139.7 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521e72fc-95b9-42a0-92f5-fdab593f3e9c")
+	)
+	(wire
+		(pts
+			(xy 36.83 44.45) (xy 48.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52af5db3-4053-4b15-8099-400c961d6776")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 88.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54bb1e4b-86ab-409d-9a4d-c970575d43be")
+	)
+	(wire
+		(pts
+			(xy 31.75 82.55) (xy 31.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55649dfb-3227-4b41-bd40-73c0a4730d92")
+	)
+	(bus
+		(pts
+			(xy 50.8 39.37) (xy 50.8 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556895df-3d3b-4f6b-b4f3-4da544e753e9")
+	)
+	(wire
+		(pts
+			(xy 173.99 62.23) (xy 184.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56058443-acf0-4823-aa8a-3df6f1b5c225")
+	)
+	(wire
+		(pts
+			(xy 184.15 57.15) (xy 184.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560caedf-6ea5-4dc3-a3c5-acbbacb933e0")
+	)
+	(wire
+		(pts
+			(xy 128.27 138.43) (xy 139.7 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568ba21a-dd63-4b35-a6f6-bd8db8bf1c01")
+	)
+	(wire
+		(pts
+			(xy 156.21 49.53) (xy 156.21 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5906b98a-d4d2-4554-8294-49a0d9b6688a")
+	)
+	(wire
+		(pts
+			(xy 227.33 86.36) (xy 227.33 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5979c38e-1060-4c96-b304-0f8d917a0d2d")
+	)
+	(wire
+		(pts
+			(xy 102.87 135.89) (xy 102.87 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59926c4f-b43f-400e-aec4-f6463c8ed3bd")
+	)
+	(wire
+		(pts
+			(xy 156.21 81.28) (xy 156.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fedd13-fdf1-4b3b-a0a9-45897f32e14f")
+	)
+	(wire
+		(pts
+			(xy 171.45 101.6) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5e5057-414b-4040-b5c6-fa8d9b86292b")
+	)
+	(wire
+		(pts
+			(xy 163.83 57.15) (xy 163.83 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad2df63-c777-453c-9ccf-057a21470c14")
+	)
+	(polyline
+		(pts
+			(xy 25.4 165.1) (xy 63.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5b173c0d-53fd-4a8f-aa71-ae0d184db228")
+	)
+	(wire
+		(pts
+			(xy 77.47 81.28) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b381756-2a5e-460b-9c4b-ed605924cee5")
+	)
+	(bus
+		(pts
+			(xy 138.43 31.75) (xy 201.93 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8eef4d-a0b5-4882-ae5f-71c21beab59d")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 92.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6e30c2-54f6-4e7b-ac59-ffcf8a82ff02")
+	)
+	(bus
+		(pts
+			(xy 50.8 31.75) (xy 53.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d507558-f0b9-4a16-80f4-afd8b931f30d")
+	)
+	(wire
+		(pts
+			(xy 88.9 149.86) (xy 93.98 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cbdcfd-c18e-4cfc-a7e1-5f5fe1760c29")
+	)
+	(wire
+		(pts
+			(xy 227.33 101.6) (xy 227.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66195910-2a51-4c2d-866c-4eb0bd1783ec")
+	)
+	(wire
+		(pts
+			(xy 100.33 101.6) (xy 100.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670624f6-5762-4816-9fbd-203ad09442ba")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 113.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f3cfc4-445e-4b84-a5df-cba49f8cc76c")
+	)
+	(polyline
+		(pts
+			(xy 63.5 165.1) (xy 63.5 17.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "6808d1b7-5485-475a-beda-43678ccc28ef")
+	)
+	(wire
+		(pts
+			(xy 181.61 39.37) (xy 171.45 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696c4f16-6fc9-4314-8848-9548fbbf3add")
+	)
+	(wire
+		(pts
+			(xy 204.47 135.89) (xy 204.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac65ef1-b78c-4364-aa06-f2f68dc03437")
+	)
+	(wire
+		(pts
+			(xy 181.61 104.14) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aeda4b6-a45f-474c-9e48-76eb8f0be34b")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b27f470-1157-447a-a2d5-c1ada5df4d5b")
+	)
+	(wire
+		(pts
+			(xy 215.9 149.86) (xy 215.9 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf75cfa-c840-4c0c-aced-d4ee427d2e2e")
+	)
+	(wire
+		(pts
+			(xy 92.71 93.98) (xy 92.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4b3e8d-8128-42e6-8f48-5f4253ece9ec")
+	)
+	(wire
+		(pts
+			(xy 167.64 39.37) (xy 171.45 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d68db62-45f7-4a19-90b5-b3e52c0ebeec")
+	)
+	(bus
+		(pts
+			(xy 50.8 41.91) (xy 50.8 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0b19f7-d2a8-4718-ba46-2d9f0d2d5821")
+	)
+	(wire
+		(pts
+			(xy 184.15 81.28) (xy 187.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5f56b4-6284-40f2-9720-930385785f48")
+	)
+	(wire
+		(pts
+			(xy 171.45 36.83) (xy 176.53 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e64507c-128f-484a-ba64-b42e8bad0f44")
+	)
+	(bus
+		(pts
+			(xy 50.8 49.53) (xy 50.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edc9fbb-9d03-4031-825c-c03dad2add64")
+	)
+	(wire
+		(pts
+			(xy 140.97 34.29) (xy 140.97 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703ad99d-6506-46f5-963f-e74134940716")
+	)
+	(wire
+		(pts
+			(xy 176.53 36.83) (xy 186.69 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708bc757-3f2e-4863-a887-6144fb7b4029")
+	)
+	(wire
+		(pts
+			(xy 240.03 36.83) (xy 250.19 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ce9bb9-9175-4fe0-a7fb-d24100a8d24d")
+	)
+	(wire
+		(pts
+			(xy 234.95 104.14) (xy 234.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71931563-8fd6-49e6-af05-f09dc5f4153c")
+	)
+	(wire
+		(pts
+			(xy 184.15 63.5) (xy 184.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ea82ad-f352-4c3c-a2b4-a970d32e9eee")
+	)
+	(wire
+		(pts
+			(xy 139.7 138.43) (xy 139.7 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737264d4-bc9f-4de6-b412-b95171d5f071")
+	)
+	(bus
+		(pts
+			(xy 176.53 133.35) (xy 201.93 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746c1e93-ec91-4c52-9b10-afd98fbbb851")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 92.71 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778f22d3-59f5-415d-89b0-8db98a32ec5e")
+	)
+	(wire
+		(pts
+			(xy 165.1 138.43) (xy 165.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7809db71-4cc0-4264-a749-673c93573293")
+	)
+	(wire
+		(pts
+			(xy 215.9 49.53) (xy 215.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79287ec0-1b0d-4fc8-bc0a-fccb366ce549")
+	)
+	(bus
+		(pts
+			(xy 67.31 31.75) (xy 69.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa6eaeb-5e73-478a-82b4-41a012a982bb")
+	)
+	(wire
+		(pts
+			(xy 176.53 101.6) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7adcccc6-eac2-444c-8139-7fc82e651749")
+	)
+	(wire
+		(pts
+			(xy 163.83 86.36) (xy 163.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b292a85-086a-47dd-b525-6656a2191cc5")
+	)
+	(wire
+		(pts
+			(xy 204.47 36.83) (xy 215.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0b72ec-db43-40e9-9458-06d76abf5866")
+	)
+	(wire
+		(pts
+			(xy 215.9 81.28) (xy 215.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8026cc73-cb1a-4bf2-92b7-231f7a6efe1e")
+	)
+	(wire
+		(pts
+			(xy 92.71 36.83) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ef6562-ec14-480d-be43-6e068fa5125e")
+	)
+	(wire
+		(pts
+			(xy 227.33 41.91) (xy 227.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83096892-1281-489f-a530-8a4053be167e")
+	)
+	(polyline
+		(pts
+			(xy 63.5 17.78) (xy 25.4 17.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "83c2ec14-ecd4-451a-b426-316f35aebb99")
+	)
+	(wire
+		(pts
+			(xy 88.9 148.59) (xy 88.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848b2228-badd-42f9-819c-70383fa0010d")
+	)
+	(wire
+		(pts
+			(xy 152.4 81.28) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e1d4d5-d6be-4dc8-ba7d-867e954e4bae")
+	)
+	(wire
+		(pts
+			(xy 165.1 158.75) (xy 165.1 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ff2ac4-cf6e-49a7-a1c5-f53cef9b55e9")
+	)
+	(wire
+		(pts
+			(xy 193.04 86.36) (xy 193.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859e8420-7600-4a7e-aebd-f736347b2c60")
+	)
+	(wire
+		(pts
+			(xy 120.65 106.68) (xy 124.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88aaa0d4-371a-4bfa-b60d-78b1d03f2a71")
+	)
+	(wire
+		(pts
+			(xy 173.99 81.28) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ddcdec0-c4b7-4842-9348-ed48047ba066")
+	)
+	(wire
+		(pts
+			(xy 191.77 106.68) (xy 186.69 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0025f6-3986-4f8a-b700-be382ea8cbe1")
+	)
+	(wire
+		(pts
+			(xy 173.99 57.15) (xy 173.99 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9237a700-09fa-4cd7-888f-b54857d0c8c7")
+	)
+	(wire
+		(pts
+			(xy 100.33 41.91) (xy 100.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933fc44b-56ec-4a8f-9544-38618426b190")
+	)
+	(polyline
+		(pts
+			(xy 266.7 17.78) (xy 63.5 17.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "93acb3ce-7d5c-45bf-8377-40bacc447f9f")
+	)
+	(wire
+		(pts
+			(xy 156.21 36.83) (xy 163.83 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e46331-b64f-4173-9146-b3a04f0fdc96")
+	)
+	(wire
+		(pts
+			(xy 250.19 41.91) (xy 250.19 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95af97f0-1310-4f9b-8fa0-b35d8b8d7d1b")
+	)
+	(wire
+		(pts
+			(xy 140.97 81.28) (xy 152.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b31db8-5658-4822-8c13-cfdfed1abb4d")
+	)
+	(bus
+		(pts
+			(xy 50.8 46.99) (xy 50.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961ed3e2-6541-4ac2-a45c-1e5bf2153bda")
+	)
+	(wire
+		(pts
+			(xy 237.49 57.15) (xy 237.49 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97657a8a-ace4-4c7e-a6cf-7e0920238ea2")
+	)
+	(wire
+		(pts
+			(xy 113.03 57.15) (xy 113.03 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d86854-1c9e-489c-a9d8-d33787145925")
+	)
+	(wire
+		(pts
+			(xy 123.19 62.23) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bad20e8-a098-4b0a-a55d-95330814f08c")
+	)
+	(wire
+		(pts
+			(xy 140.97 36.83) (xy 152.4 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcc1423-597a-427c-8d1a-9e0526c18db6")
+	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce0f7c9-6631-4b5b-87f3-400d9d6e2d4a")
+	)
+	(wire
+		(pts
+			(xy 139.7 148.59) (xy 139.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3947bd-d1dd-47c3-a3e0-b0696c7dcb29")
+	)
+	(bus
+		(pts
+			(xy 100.33 133.35) (xy 125.73 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d440f44-d3c3-45a1-87bb-7297f0ae7a40")
+	)
+	(wire
+		(pts
+			(xy 92.71 49.53) (xy 92.71 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4a4f3e-089c-4aea-b663-ed4e7293df3e")
+	)
+	(wire
+		(pts
+			(xy 156.21 36.83) (xy 156.21 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5279dd-0563-4d16-8b2b-a3c7042e0384")
+	)
+	(wire
+		(pts
+			(xy 186.69 41.91) (xy 186.69 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eee628c-8060-4119-8e04-2b58ddfdccbd")
+	)
+	(wire
+		(pts
+			(xy 36.83 52.07) (xy 48.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9ecb81-1d48-4c0f-800d-dccd2877a5c2")
+	)
+	(bus
+		(pts
+			(xy 74.93 133.35) (xy 100.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdaebb1-e11e-4b6a-87f8-5831e14d4dfd")
+	)
+	(wire
+		(pts
+			(xy 156.21 93.98) (xy 156.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0029c46-f312-4cc1-8405-fc112f3ffbf6")
+	)
+	(wire
+		(pts
+			(xy 120.65 36.83) (xy 124.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01b23e0-82eb-4744-bb99-fcf9f391c5c2")
+	)
+	(wire
+		(pts
+			(xy 139.7 149.86) (xy 139.7 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03ebf1f-70d6-43c2-be89-f174fc3cd148")
+	)
+	(wire
+		(pts
+			(xy 77.47 135.89) (xy 77.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a134ca3b-ebd2-438c-8194-f0f1c969ea1e")
+	)
+	(wire
+		(pts
+			(xy 120.65 107.95) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1759729-6de8-4864-bde1-454ae3f90ac8")
+	)
+	(wire
+		(pts
+			(xy 165.1 149.86) (xy 165.1 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b19a1f-5f28-4725-8fde-91b0092b5791")
+	)
+	(wire
+		(pts
+			(xy 255.27 106.68) (xy 250.19 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d9d4aa-56af-40bc-8d27-74f95c52aedb")
+	)
+	(wire
+		(pts
+			(xy 190.5 149.86) (xy 190.5 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dacc08-f2a6-4595-9247-c0ac015d2e1e")
+	)
+	(wire
+		(pts
+			(xy 215.9 93.98) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a392a434-1ad4-43d0-b599-b1fcbd79b78c")
+	)
+	(bus
+		(pts
+			(xy 67.31 31.75) (xy 74.93 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b6788a-e98d-4076-94e8-da499afae9e5")
+	)
+	(wire
+		(pts
+			(xy 240.03 101.6) (xy 240.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a621184e-e52d-44d5-8ccb-d1870a19ffde")
+	)
+	(wire
+		(pts
+			(xy 204.47 81.28) (xy 215.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7eeeba8-804e-4749-9158-2e95e085dbb1")
+	)
+	(bus
+		(pts
+			(xy 53.34 31.75) (xy 67.31 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80fcfbb-6ae6-4142-853c-24a45b5d1bd3")
+	)
+	(wire
+		(pts
+			(xy 36.83 49.53) (xy 48.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa762f2b-c2fb-4405-8495-f29b96ce870d")
+	)
+	(wire
+		(pts
+			(xy 215.9 138.43) (xy 215.9 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab751be1-7f31-4e6a-8baa-02a48f05b265")
+	)
+	(wire
+		(pts
+			(xy 247.65 63.5) (xy 247.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb4772a-eefb-441f-832e-da1a02c9c5fa")
+	)
+	(wire
+		(pts
+			(xy 171.45 104.14) (xy 171.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb1e3e4-2323-4097-a6c9-018dbcb0136b")
+	)
+	(wire
+		(pts
+			(xy 171.45 41.91) (xy 171.45 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af20c69e-8d98-46cc-bbef-6e5782d31cbe")
+	)
+	(wire
+		(pts
+			(xy 179.07 135.89) (xy 179.07 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af38ec4d-5ba8-42cf-8f28-d6914f9fe887")
+	)
+	(wire
+		(pts
+			(xy 77.47 34.29) (xy 77.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afac74ff-c87a-4c1c-a1e3-852e7ab4320b")
+	)
+	(wire
+		(pts
+			(xy 247.65 81.28) (xy 251.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d68a74-128b-40d8-a097-030073f53daa")
+	)
+	(wire
+		(pts
+			(xy 129.54 111.76) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ad4876-e9e8-4fcc-a54e-eceed3bcd5f0")
+	)
+	(wire
+		(pts
+			(xy 215.9 81.28) (xy 219.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2dab612-95cb-4164-bd68-4fb6d1d12add")
+	)
+	(wire
+		(pts
+			(xy 181.61 41.91) (xy 181.61 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42641c0-16af-40a7-bebb-6187c53b548c")
+	)
+	(wire
+		(pts
+			(xy 114.3 149.86) (xy 119.38 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b463cffa-0817-4ee9-afdd-5bd545dce900")
+	)
+	(wire
+		(pts
+			(xy 152.4 49.53) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b79582-7c7a-4660-a174-7a1458734924")
+	)
+	(wire
+		(pts
+			(xy 39.37 54.61) (xy 39.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ef782f-cdcf-4f06-8e01-93dd6b09c130")
+	)
+	(wire
+		(pts
+			(xy 114.3 148.59) (xy 114.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae2079a-291d-4b31-aa30-fd02eff8c478")
+	)
+	(bus
+		(pts
+			(xy 69.85 130.81) (xy 72.39 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1d6672-12db-43d7-bc64-71cae3225cbb")
+	)
+	(wire
+		(pts
+			(xy 204.47 138.43) (xy 215.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbebfe24-1d45-406a-9938-f0b0c76095b5")
+	)
+	(wire
+		(pts
+			(xy 234.95 41.91) (xy 234.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf58a36-707e-476c-8399-d98d3b7d78a1")
+	)
+	(wire
+		(pts
+			(xy 234.95 101.6) (xy 234.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc89676b-02f3-41c7-9cbe-52f7d9521284")
+	)
+	(wire
+		(pts
+			(xy 247.65 86.36) (xy 247.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf9a7c0-ff91-48c6-97c0-466cef3e5abe")
+	)
+	(wire
+		(pts
+			(xy 100.33 86.36) (xy 100.33 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13b2966-3cc2-430f-b9e1-5e6d55685999")
+	)
+	(wire
+		(pts
+			(xy 36.83 41.91) (xy 48.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25e36ce-bc40-48d2-9713-c20d7118780c")
+	)
+	(wire
+		(pts
+			(xy 250.19 106.68) (xy 250.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3057555-611d-4783-9d22-40ffd7fe9a28")
+	)
+	(wire
+		(pts
+			(xy 231.14 40.64) (xy 231.14 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c4638f-c38b-4d3a-b2ac-bb87758bf0e0")
+	)
+	(wire
+		(pts
+			(xy 36.83 39.37) (xy 48.26 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5630c11-2b18-44ea-94dd-cb33110bc274")
+	)
+	(wire
+		(pts
+			(xy 247.65 80.01) (xy 247.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5bbf699-5a81-4a09-9e3e-20f3428bb235")
+	)
+	(wire
+		(pts
+			(xy 256.54 86.36) (xy 256.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c627a895-70d9-438d-8196-e9053005e0dd")
+	)
+	(wire
+		(pts
+			(xy 88.9 138.43) (xy 88.9 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e7ba69-b970-47df-8410-2842b7fdb121")
+	)
+	(bus
+		(pts
+			(xy 72.39 133.35) (xy 74.93 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c816efb5-aadf-4ba0-8b67-c9b51f142424")
+	)
+	(wire
+		(pts
+			(xy 107.95 59.69) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84ea0cc-cf04-4130-8155-df4adbf85f8f")
+	)
+	(bus
+		(pts
+			(xy 72.39 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95e17c1-b78a-498c-8bc6-08caa2a081ef")
+	)
+	(wire
+		(pts
+			(xy 129.54 41.91) (xy 129.54 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb050703-ed1e-4302-b013-a7bf5e51f4f3")
+	)
+	(wire
+		(pts
+			(xy 36.83 77.47) (xy 43.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbde7bd2-dfd3-4dee-b885-84646d0414b2")
+	)
+	(polyline
+		(pts
+			(xy 63.5 165.1) (xy 266.7 165.1)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "cffb8cc3-eda4-4fe3-bfdf-a4146e4469e5")
+	)
+	(wire
+		(pts
+			(xy 219.71 81.28) (xy 219.71 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d4a8e6-df12-46f2-82ab-f0cc235c5787")
+	)
+	(wire
+		(pts
+			(xy 215.9 36.83) (xy 219.71 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12b00c5-3182-4419-a052-7595a40d8fa3")
+	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3377736-fd70-4474-bcb4-c39e30104175")
+	)
+	(wire
+		(pts
+			(xy 77.47 138.43) (xy 88.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4825382-88ad-4a83-871e-ad2a15f5a8e5")
+	)
+	(wire
+		(pts
+			(xy 173.99 86.36) (xy 173.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84b6da1-8e2b-4996-a8ee-767982e7756c")
+	)
+	(wire
+		(pts
+			(xy 247.65 57.15) (xy 247.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9ce6ff-99cb-4867-89b2-2638347cf434")
+	)
+	(wire
+		(pts
+			(xy 107.95 86.36) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db65d7a9-cafb-408d-9c15-a524ea00e457")
+	)
+	(wire
+		(pts
+			(xy 167.64 40.64) (xy 167.64 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb5b7eb-b204-4840-ab95-0f459cf0342f")
+	)
+	(wire
+		(pts
+			(xy 245.11 41.91) (xy 245.11 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def6d9b4-3f99-41c5-b2c9-de5915d73bcd")
+	)
+	(polyline
+		(pts
+			(xy 26.67 109.22) (xy 57.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "e04ed654-74ad-4903-8b7d-d09ed7374833")
+	)
+	(wire
+		(pts
+			(xy 219.71 93.98) (xy 219.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08a7c9d-eec3-473f-8d6f-930ba55f645b")
+	)
+	(wire
+		(pts
+			(xy 215.9 148.59) (xy 215.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0907dec-ac48-49b1-888c-14fe2646586b")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f8c575-9818-4f03-a39a-2b9d8985b81f")
+	)
+	(wire
+		(pts
+			(xy 152.4 36.83) (xy 152.4 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46dab0e-38c0-4950-b295-f1b4be2430a8")
+	)
+	(wire
+		(pts
+			(xy 110.49 106.68) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53ff2d6-79c7-456b-a53f-3082327ee536")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 100.33 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5405c26-d350-4f28-9667-be45edc47692")
+	)
+	(wire
+		(pts
+			(xy 156.21 81.28) (xy 163.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e5cad6-928b-43d2-bca2-3057b5af9f0f")
+	)
+	(wire
+		(pts
+			(xy 204.47 78.74) (xy 204.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93a8068-aca5-4ed2-ade5-6bcf08369205")
+	)
+	(wire
+		(pts
+			(xy 88.9 36.83) (xy 88.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97e81b3-37df-4f7a-86b5-bf81fa6ad286")
+	)
+	(wire
+		(pts
+			(xy 77.47 78.74) (xy 77.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea35a8d2-6d6f-40d4-a9fe-11a3269ac7b7")
+	)
+	(polyline
+		(pts
+			(xy 26.67 68.58) (xy 62.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "eaf195c4-40e9-494a-b5a1-7c411c54f535")
+	)
+	(wire
+		(pts
+			(xy 219.71 36.83) (xy 227.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbe02c3-fe5f-4ef8-b3ee-a492ccf3ac5f")
+	)
+	(wire
+		(pts
+			(xy 110.49 36.83) (xy 120.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4e28c8-5ff6-421b-a235-3cc96db37edf")
+	)
+	(wire
+		(pts
+			(xy 176.53 36.83) (xy 176.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec61d55f-5e44-42ea-9d65-d6d047a63e55")
+	)
+	(wire
+		(pts
+			(xy 250.19 106.68) (xy 240.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed020b9b-7f0c-4f2e-9833-982cff4b9816")
+	)
+	(wire
+		(pts
+			(xy 102.87 83.82) (xy 102.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddaa383-9419-4427-92d5-6969e90ec559")
+	)
+	(wire
+		(pts
+			(xy 114.3 138.43) (xy 114.3 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee04ca51-52e8-4fba-83c6-0ac57357b176")
+	)
+	(bus
+		(pts
+			(xy 74.93 31.75) (xy 138.43 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb10c99-bec9-45c5-ae91-dfb1c0fa4b78")
+	)
+	(bus
+		(pts
+			(xy 69.85 73.66) (xy 69.85 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f155bf95-d5fe-49af-b656-7a72a57964a7")
+	)
+	(bus
+		(pts
+			(xy 151.13 133.35) (xy 176.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2560b22-6523-42be-ba6f-07635edcdaae")
+	)
+	(wire
+		(pts
+			(xy 139.7 149.86) (xy 144.78 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33f9219-49f9-43b0-a5f1-ba65174fa55b")
+	)
+	(wire
+		(pts
+			(xy 231.14 39.37) (xy 234.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4224f88-8ade-445e-8455-563024ee68f6")
+	)
+	(wire
+		(pts
+			(xy 190.5 158.75) (xy 190.5 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5bfa8a9-cacc-4682-b904-d5089feac8e9")
+	)
+	(wire
+		(pts
+			(xy 100.33 57.15) (xy 100.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5db86e1-aa7a-4e1c-9b2a-96d50ab61011")
+	)
+	(wire
+		(pts
+			(xy 128.27 62.23) (xy 123.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f780df7c-11c0-41f4-a66a-529913124c16")
+	)
+	(polyline
+		(pts
+			(xy 26.67 113.03) (xy 57.15 113.03)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "f7e6f759-eba2-45da-a0a5-f739cbfb06f5")
+	)
+	(wire
+		(pts
+			(xy 215.9 36.83) (xy 215.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94c91e2-ac39-48c9-ac5a-1083fd0abce2")
+	)
+	(wire
+		(pts
+			(xy 92.71 36.83) (xy 100.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96af974-860e-4ad6-955c-c7ea6fd9d272")
+	)
+	(wire
+		(pts
+			(xy 247.65 62.23) (xy 251.46 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3fb4c5-3e6e-407d-8e4c-314c3d74018c")
+	)
+	(wire
+		(pts
+			(xy 88.9 158.75) (xy 88.9 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0ff93c-40b9-401b-87e1-56d5b98331b9")
+	)
+	(wire
+		(pts
+			(xy 114.3 158.75) (xy 114.3 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5d2f55-4023-424c-8381-a294bb2ab006")
+	)
+	(wire
+		(pts
+			(xy 152.4 36.83) (xy 156.21 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe920ef-1e45-4fd1-8fe6-2428b52eff1a")
+	)
+	(wire
+		(pts
+			(xy 77.47 36.83) (xy 88.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc463884-c601-47e5-bd44-3eb137ed526a")
+	)
+	(wire
+		(pts
+			(xy 123.19 86.36) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd04008-8756-42ca-9c94-7546f1c333c7")
+	)
+	(polyline
+		(pts
+			(xy 266.7 165.1) (xy 266.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "fd3e631b-6790-4418-9f88-5dfbc64d4239")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6796af-13b6-4b65-a436-abe867455af1")
+	)
+	(label "Antena-[1..6]"
+		(at 77.47 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04189ce7-295c-4d98-bfcb-eaeb101eaaf4")
+	)
+	(label "LED1"
+		(at 93.98 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e5231df-a942-4504-bdd8-c93e91e54856")
+	)
+	(label "Antena-6"
+		(at 205.74 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13511902-5cf7-4c1a-a04b-2e0106601a8e")
+	)
+	(label "RF_{antena-3}"
+		(at 237.49 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1eb6776e-4f49-47e6-af0b-d2d2dc235f78")
+	)
+	(label "Antena-2"
+		(at 142.24 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fdb5f9f-169b-46c2-a3e6-b4fd996c6cf5")
+	)
+	(label "RF_{IN}"
+		(at 234.95 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "221c321d-4b7c-4806-a3f4-25eda7ef584c")
+	)
+	(label "RF_{IN}"
+		(at 107.95 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25cb848e-fa9f-4018-9362-b3294dc205a5")
+	)
+	(label "Antena-1"
+		(at 46.99 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e5662df-24fe-4923-9557-4196c8698861")
+	)
+	(label "Antena-[1..6]"
+		(at 77.47 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38665886-7544-48cc-b1d9-353b6b10faba")
+	)
+	(label "Antena-[1..6]"
+		(at 142.24 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a9de813-8a89-4561-8c13-3faff8f40de3")
+	)
+	(label "Antena-2"
+		(at 46.99 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4678fca4-a853-49b1-a30a-da4eb8cb21e7")
+	)
+	(label "Antena-[1..6]"
+		(at 142.24 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e341275-b92f-4a77-b654-17cd635af21d")
+	)
+	(label "Antena-4"
+		(at 154.94 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e5b9fed-af4f-462b-83a1-8a17b07a844b")
+	)
+	(label "Antena-[1..6]"
+		(at 187.96 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ed7a769-9e7e-41b3-a6aa-c2341aa35e67")
+	)
+	(label "LED2"
+		(at 119.38 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61edba52-f144-4c15-b67c-259ea753edac")
+	)
+	(label "LED6"
+		(at 220.98 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62078434-d226-412e-b647-c709ce60c53c")
+	)
+	(label "Antena-4"
+		(at 78.74 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69d2109d-0198-4cba-9f0e-541e242d96e3")
+	)
+	(label "Antena-4"
+		(at 46.99 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b6aa601-69b4-490f-96ee-aa00c936f44b")
+	)
+	(label "Antena-6"
+		(at 205.74 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c3612a1-cfb5-4ff8-84be-39ed3e02397a")
+	)
+	(label "RF_{IN}"
+		(at 128.27 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6df86765-db63-4607-852c-410b1d8c7264")
+	)
+	(label "LED4"
+		(at 170.18 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78337711-819d-4d7a-946b-374c1ef3b151")
+	)
+	(label "Antena-3"
+		(at 46.99 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78a5974c-8b61-43df-ab10-854535d144ba")
+	)
+	(label "Antena-1"
+		(at 78.74 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8577b26d-8d7a-42d9-8129-409e85805fc5")
+	)
+	(label "Antena-3"
+		(at 129.54 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b25efae-76f2-4a74-84c5-f9372f2044de")
+	)
+	(label "Antena-5"
+		(at 180.34 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bfa97b9-70ac-46d0-99f3-581a286bc1d9")
+	)
+	(label "Antena-[1..6]"
+		(at 187.96 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9126978f-7ae2-4403-a585-64d1ff6d422f")
+	)
+	(label "RF_{antena-2}"
+		(at 173.99 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "953d856f-5d6b-425f-8d50-64bb06192962")
+	)
+	(label "RF_{IN}"
+		(at 41.91 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a222b509-4070-4937-a1e6-7ed262513aaa")
+	)
+	(label "RF_{IN}"
+		(at 171.45 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0c99692-af0c-4cea-8b2e-fef01a1107a4")
+	)
+	(label "Antena-6"
+		(at 46.99 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8a972b6-3c2f-4081-8081-ad35452679d5")
+	)
+	(label "Antena-[1..6]"
+		(at 142.24 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be9a9645-8c52-44c2-b087-de61cc510dd0")
+	)
+	(label "RF_{antena-6}"
+		(at 237.49 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c48a9a19-d071-45e7-bc16-6b9e680cd337")
+	)
+	(label "LED3"
+		(at 144.78 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5f1ad7d-bc9f-4d5f-ad63-d152ee415ac1")
+	)
+	(label "Antena-3"
+		(at 205.74 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c85466fc-29ba-48d0-b69c-96fea1cc210c")
+	)
+	(label "Antena-5"
+		(at 46.99 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c951247e-a89e-4ec8-9258-93220b562552")
+	)
+	(label "Antena-[1..6]"
+		(at 77.47 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb031674-13c1-40ad-8f33-75039f60c9d8")
+	)
+	(label "RF_{antena-1}"
+		(at 110.49 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb5fe513-25ae-4cb9-88a9-4524ebb8980c")
+	)
+	(label "Antena-1"
+		(at 78.74 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbe358ac-29cf-411f-a95b-c88011a01d06")
+	)
+	(label "RF_{IN}"
+		(at 255.27 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d00a9369-ce02-4cbd-a0b0-43511948d5f7")
+	)
+	(label "RF_{antena-4}"
+		(at 110.49 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d37908ca-ead9-475d-bca0-95cb1e43d18d")
+	)
+	(label "RF_{antena-5}"
+		(at 173.99 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d95e569f-96c0-4c0f-8458-f4779f91396d")
+	)
+	(label "Antena-5"
+		(at 142.24 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc31e61b-0019-43a8-9966-f6543bcea8f7")
+	)
+	(label "Antena-2"
+		(at 104.14 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ead309a2-eff3-4a50-9321-b2e9401be269")
+	)
+	(label "RF_{IN}"
+		(at 191.77 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec6c87be-339b-4083-b571-843b225c825a")
+	)
+	(label "Antena-[1..6]"
+		(at 187.96 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f65d55f1-f908-4bf5-a440-2f9dd157806d")
+	)
+	(label "LED5"
+		(at 195.58 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fedbcc87-4b96-4352-b6a8-0764acb0c935")
+	)
+	(hierarchical_label "Antena-[1..6]"
+		(shape input)
+		(at 50.8 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d01e6028-700d-4d81-9be8-56ca6d78fcd3")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 82.55 146.685) (xy 82.55 153.035) (xy 224.79 153.035) (xy 224.79 146.685)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "cd182ec6-33cb-4fc7-b940-4814c7dc897b")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 120.65 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "486848c7-f925-4474-802d-db97d693b0aa")
+		(property "Net Class" "RF"
+			(at 121.8565 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 247.65 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ed3a160-5762-4a0e-92bc-51cd00c949a6")
+		(property "Net Class" "RF"
+			(at 248.8565 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 247.65 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "677a8fea-b2d6-439b-8a1e-08008fa0361c")
+		(property "Net Class" "RF"
+			(at 248.8565 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 40.64 54.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73eb1eb3-2ca6-41de-aad3-22c098b5918d")
+		(property "Net Class" "GND"
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 184.15 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a72ad760-18a9-45f2-a71e-4518a4ed1cf2")
+		(property "Net Class" "RF"
+			(at 185.3565 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape rectangle)
+		(at 224.79 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5c9a078-1777-4057-af7f-f020e44179b9")
+		(property "Net Class" "Signal"
+			(at 228.6 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 120.65 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d0e96c10-7b1b-4adc-84fc-6532ae6373cb")
+		(property "Net Class" "RF"
+			(at 121.8565 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 184.15 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8dcab87-6b8f-402d-b0bc-abee9a9f877e")
+		(property "Net Class" "RF"
+			(at 185.3565 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 43.18 77.47 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6b90dd1-5230-443b-84d1-28e26ef109db")
+		(property "Net Class" "RF"
+			(at 46.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Conn_Coaxial")
+		(at 256.54 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03c0f6a1-051c-4479-9696-f4836e3da9ff")
+		(property "Reference" "J4"
+			(at 255.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 256.2226 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:PL_PanelMount"
+			(at 256.54 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Use" "RF-OUT"
+			(at 255.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1e2433c9-7e6f-41fd-92b6-13832e3d5f8a")
+		)
+		(pin "2"
+			(uuid "158c82ec-e21b-4196-87cd-ff2675505831")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 190.5 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06a57023-56b0-452a-8edb-1f9b3de4be5a")
+		(property "Reference" "#GND037"
+			(at 193.04 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b33d78c9-b2c0-4240-affb-a49ab622f2ab")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND047")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 163.83 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ac804ae-b866-431c-9d22-486e23480494")
+		(property "Reference" "#GND011"
+			(at 166.37 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3dbf436-9876-4949-9866-52c5114514da")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND010")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Rele_2Conm")
+		(at 237.49 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20ac479d-613f-4532-a144-f2fc4e9ab008")
+		(property "Reference" "K6"
+			(at 250.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 234.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+			(at 234.95 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "f892766f-baa5-433c-911b-859093022f66")
+		)
+		(pin "12"
+			(uuid "4ea72767-e542-4bd3-9a14-c6d31baf3f89")
+		)
+		(pin "14"
+			(uuid "c6ceb6b4-dac9-49cc-9c09-5a3e70b9c3b6")
+		)
+		(pin "21"
+			(uuid "f156750a-f7cd-45b0-b862-40ba2aaf90a5")
+		)
+		(pin "22"
+			(uuid "dfd18613-ecb7-4025-b344-2752e2655c6e")
+		)
+		(pin "24"
+			(uuid "bf5b1d4b-ebc5-4e00-94da-67f40eadec82")
+		)
+		(pin "A1"
+			(uuid "9acdec80-d8b0-4062-b510-39200686a54d")
+		)
+		(pin "A2"
+			(uuid "b4bf4ed0-21fc-4584-b0ac-2870eea33e96")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "K6")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:C")
+		(at 152.4 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22ece6e0-c04c-4cbd-bb09-a9ab33c6314d")
+		(property "Reference" "C5"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 153.3652 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58eb3fe8-fdd7-45ab-8d54-2b23060c7ebe")
+		)
+		(pin "2"
+			(uuid "88dab41c-0f5b-4f96-8be2-17a73c02ae2b")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:LED_Filled")
+		(at 215.9 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25aef88e-d778-46a9-8e54-a2e25322d27b")
+		(property "Reference" "D12"
+			(at 217.17 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.17 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 215.9 154.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 154.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "198fd30a-b724-41a7-b88e-aeb753ee1f33")
+		)
+		(pin "2"
+			(uuid "e446281a-53ef-435f-b585-548a0985d11a")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 231.14 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27ac81f6-d4a8-4ea7-9957-2be7bc0ebf79")
+		(property "Reference" "#GND02"
+			(at 228.6 39.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 39.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91cfe226-2ee9-4aa6-9f74-f3feda8eaff3")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND035")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 256.54 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28769cf5-1470-43aa-bf10-ac9c65bf4597")
+		(property "Reference" "#GND020"
+			(at 259.08 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a38f94b-222c-467f-850f-1f1e650ba40d")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND031")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 39.37 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b091f54-c7b7-41f1-851f-660e198064d6")
+		(property "Reference" "#GND04"
+			(at 41.91 57.15 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 57.15 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84aad629-47a1-4b66-8a42-7e18277afc12")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND038")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Rele_2Conm")
+		(at 173.99 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32314769-eec9-41a6-9872-0fb7c68962f7")
+		(property "Reference" "K2"
+			(at 186.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+			(at 171.45 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "7d97eabe-66de-4d5c-85ef-44661cb1857c")
+		)
+		(pin "12"
+			(uuid "b23986ac-a323-4ab5-8a31-c82addd54fa1")
+		)
+		(pin "14"
+			(uuid "ad7424dd-b567-4318-90c0-fc6f6d9b2379")
+		)
+		(pin "21"
+			(uuid "3fdabcb0-19f4-484c-8d98-8be17ccfed4d")
+		)
+		(pin "22"
+			(uuid "30e0b905-d823-4b60-a0c2-e5ac928a70c2")
+		)
+		(pin "24"
+			(uuid "af49e383-a212-45a7-ba34-f46321db9bcc")
+		)
+		(pin "A1"
+			(uuid "bc6dd55c-8161-4569-8345-1425a53b8fb2")
+		)
+		(pin "A2"
+			(uuid "c8e34b71-6655-4357-9fac-6537b25e92fb")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:R")
+		(at 190.5 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32d1a56b-78bd-4e65-aac4-b4ae57d3c691")
+		(property "Reference" "R5"
+			(at 191.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 188.722 144.78 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 144.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c67c596-3c69-4b51-a47a-ecb0c5400287")
+		)
+		(pin "2"
+			(uuid "654e9d99-75ca-41a6-a86e-c50572e5de44")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 227.33 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34ad7ee1-eebd-4c64-b0a5-653bc40d30a8")
+		(property "Reference" "#GND015"
+			(at 229.87 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "edced696-7091-48a6-b10f-f593438cdeb3")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND028")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 88.9 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38d783e0-72ea-4b16-a486-9ffde68b1c83")
+		(property "Reference" "#GND033"
+			(at 91.44 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15da00ff-ab55-4e41-9727-a43d0f4f1a08")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND039")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 114.3 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e52325c-04a5-4eb6-9433-b01eafc522bd")
+		(property "Reference" "#GND034"
+			(at 116.84 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9735c914-b30c-41a4-bfc0-bf4b62c3fb2b")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND041")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 100.33 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f36a0ef-b641-4750-954f-20bba68a506c")
+		(property "Reference" "#GND023"
+			(at 102.87 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a06fcbb-87c3-481f-9f48-48ea24cbf260")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND016")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 167.64 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fae99db-bd77-41b4-8676-3eade625c9f9")
+		(property "Reference" "#GND01"
+			(at 165.1 39.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12d34d67-6e5c-4ea3-95b0-20d359e53d37")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND023")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Conn_Coaxial")
+		(at 31.75 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "494d5e9a-4941-4b51-996b-93d79da7b3f3")
+		(property "Reference" "J5"
+			(at 32.0674 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 32.0674 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:PL_PanelMount"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Use" "RF-IN"
+			(at 31.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c76a401f-6054-4289-b1d6-8390410288c3")
+		)
+		(pin "2"
+			(uuid "74ac4e1c-09eb-4a82-ae4e-bdd5e007d024")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 215.9 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b2b7f1b-5262-4703-acfd-268a88e18b51")
+		(property "Reference" "#GND013"
+			(at 218.44 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af3918e8-ed3b-48b7-8d62-8546d287c1d9")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND026")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 152.4 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50b456fa-e58d-483b-8edc-9ea0052b4334")
+		(property "Reference" "#GND09"
+			(at 154.94 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62482c7d-b2dd-4cda-9d5b-7b9a6bee0410")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND08")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:LED_Filled")
+		(at 114.3 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55bcee7a-f6eb-4b2a-859c-a9d48818fb8c")
+		(property "Reference" "D8"
+			(at 115.57 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 115.57 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 114.3 154.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 154.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4aac5244-5ac6-4c53-9262-94b5094d7f89")
+		)
+		(pin "2"
+			(uuid "ed182d56-fbb2-4fbe-a79d-64cde0c91da5")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:C")
+		(at 88.9 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5810d88e-e0ab-4542-b909-00863c4bc2de")
+		(property "Reference" "C4"
+			(at 74.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 89.8652 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9190ac12-0b53-46a2-8ab0-a737a1e00fb6")
+		)
+		(pin "2"
+			(uuid "54c9c288-594c-4bfb-b1bd-fc01b57ebc26")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 102.87 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "589e77d8-7d53-410b-b2ab-1ec29ecd948d")
+		(property "Reference" "#GND018"
+			(at 100.33 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "233b5eb1-9dea-4084-b591-8c5d73587e0e")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND017")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Rele_2Conm")
+		(at 110.49 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bbd23a6-0f9f-4b40-819f-0be9236f96ea")
+		(property "Reference" "K4"
+			(at 123.19 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 107.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+			(at 107.95 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "e6813325-ebc8-4662-bbb5-27239c56144c")
+		)
+		(pin "12"
+			(uuid "a6e3ccc0-ab63-4f52-87f2-04ace9acb87b")
+		)
+		(pin "14"
+			(uuid "fa2577e1-6786-4910-b056-7d8f617f9cd9")
+		)
+		(pin "21"
+			(uuid "2e4178b0-51a2-485e-b007-e21637f462ca")
+		)
+		(pin "22"
+			(uuid "798371bb-7112-43d9-ba76-d9fdd8e7e2b6")
+		)
+		(pin "24"
+			(uuid "d6db058b-6b03-485c-8d80-050db6201fc8")
+		)
+		(pin "A1"
+			(uuid "d8f6c897-2a32-4040-b346-495f2bc9fd9a")
+		)
+		(pin "A2"
+			(uuid "fa4dd537-8fdf-441c-a54a-7198a45c4fce")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Rele_2Conm")
+		(at 110.49 49.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bd6effc-f5b0-4d8e-9e98-cf60f0549997")
+		(property "Reference" "K1"
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 107.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+			(at 107.95 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "93ff571f-3296-407d-9206-a793bd02a0e8")
+		)
+		(pin "12"
+			(uuid "4374b270-644a-403a-b441-957c939a9eec")
+		)
+		(pin "14"
+			(uuid "243f40f6-8727-48bc-9757-a031f4fbd2fa")
+		)
+		(pin "21"
+			(uuid "1f787621-feab-429b-9d07-ae80c8d4a7e8")
+		)
+		(pin "22"
+			(uuid "580e9079-b2c4-4d24-a676-e28c291f89dc")
+		)
+		(pin "24"
+			(uuid "ae0e6436-9fc1-4ed2-b6cd-fd87b64df859")
+		)
+		(pin "A1"
+			(uuid "041fe800-cb55-4667-8a79-9249dc7fa8eb")
+		)
+		(pin "A2"
+			(uuid "38ae1e27-b0b5-4ee3-8d62-5d5a20786d29")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 156.21 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "607766ac-6ce2-4c78-a42a-42e10b3b8670")
+		(property "Reference" "#GND010"
+			(at 158.75 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3435046-c08e-4323-b616-bc4cb47a0a36")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND09")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:R")
+		(at 215.9 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60c49e8a-710a-460a-9aac-690f35d58a49")
+		(property "Reference" "R6"
+			(at 217.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 214.122 144.78 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 144.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bac7925-0293-4cef-9bd5-c8e8cf88895b")
+		)
+		(pin "2"
+			(uuid "64eafd6e-238b-4a32-ac74-f34169c81531")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 156.21 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "623404d9-4237-4889-b972-4827b0cd8742")
+		(property "Reference" "#GND026"
+			(at 158.75 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c506596-d5c2-4073-beb8-e1cb28ab8d31")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND021")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Conn_Coaxial")
+		(at 129.54 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6473a9c6-5be1-4d04-9d5c-68e72978c769")
+		(property "Reference" "J8"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 129.2226 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:PL_PanelMount"
+			(at 129.54 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Use" "RF-OUT"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b16f8db1-0c94-494b-9ca9-4e28e86868ce")
+		)
+		(pin "2"
+			(uuid "b8db56e6-1c47-482c-a7c4-c0db96189170")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:C")
+		(at 152.4 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69c6f2f0-be0b-4b01-aeda-7f277ba90b8f")
+		(property "Reference" "C2"
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 142.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 153.3652 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c28daa9f-c807-4ef3-a21e-636524fc1f3c")
+		)
+		(pin "2"
+			(uuid "eefc8c6f-4cf3-4e02-96e1-c2e08b0a71c3")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 219.71 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b9fd232-1046-4a82-b100-5e3c21f438d4")
+		(property "Reference" "#GND014"
+			(at 222.25 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9767f89-a8ed-452c-a9d7-97a388fa14e5")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND027")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:R")
+		(at 114.3 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bb27be0-c192-4f94-8e6c-9970930d944b")
+		(property "Reference" "R2"
+			(at 115.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 112.522 144.78 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 144.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4170e41c-d25a-4d60-911e-596527ebe918")
+		)
+		(pin "2"
+			(uuid "3968bc61-2fd0-4c56-8992-e47983945d6e")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:R")
+		(at 139.7 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ce1dadd-c3e2-4c09-9f4e-67d84fc6d338")
+		(property "Reference" "R3"
+			(at 140.97 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 140.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 137.922 144.78 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 144.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43896495-0659-4bb8-8b98-cd18c1e9dd8b")
+		)
+		(pin "2"
+			(uuid "240317f9-0e27-4781-8593-cacb1bb16dac")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 129.54 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d173423-70eb-4b68-947e-574d53c982c9")
+		(property "Reference" "#GND03"
+			(at 132.08 43.18 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 43.18 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "923ec188-0ee5-4a91-9b61-becc253be7ed")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 129.54 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f22f46e-04e0-48c1-a244-8cbcde3f6442")
+		(property "Reference" "#GND024"
+			(at 132.08 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2f542fa-2585-42f4-b753-a69c88047ae9")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND019")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 227.33 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71a0d4d1-e476-478a-b2b9-ab7420316a3e")
+		(property "Reference" "#GND031"
+			(at 229.87 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77283f64-389b-4fa6-9a7c-4b8125eb9a7d")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND034")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Conn_Coaxial")
+		(at 129.54 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75e82601-cef7-4a6e-b5ab-62d28dbe80b2")
+		(property "Reference" "J1"
+			(at 132.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 129.2226 33.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:PL_PanelMount"
+			(at 129.54 36.83 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 36.83 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Use" "RF-OUT"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "858ea9a2-2374-42ce-9873-e432b409976d")
+		)
+		(pin "2"
+			(uuid "1556679f-a57b-4e05-b354-b7abae8637dc")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 256.54 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77e40c06-30ed-45bd-9c09-62173eabd07b")
+		(property "Reference" "#GND016"
+			(at 259.08 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa2eef05-83a2-4fbd-945a-db3bdba56841")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND037")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:D_Filled")
+		(at 219.71 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a212c9b-1f63-44f9-888c-fda903a7bd3d")
+		(property "Reference" "D3"
+			(at 203.2 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4007"
+			(at 209.55 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 219.71 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 219.71 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 219.71 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af29a728-a280-4566-9b47-d6978451fac9")
+		)
+		(pin "2"
+			(uuid "dc96c724-da20-4573-aff5-b61e99e7eba5")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 171.45 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bfd6b28-68c8-4fba-825b-d4bb0e03c999")
+		(property "Reference" "#GND028"
+			(at 173.99 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46aa77c8-bc0f-4d37-bf22-ec420b1467d5")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND011")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:D_Filled")
+		(at 92.71 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f653d10-2cb4-446b-b555-da29e4afb255")
+		(property "Reference" "D4"
+			(at 76.2 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4007"
+			(at 82.55 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 92.71 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 92.71 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 92.71 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "407a0f57-80c0-4a62-9669-e3c7b73861ea")
+		)
+		(pin "2"
+			(uuid "f07fd99a-6096-42f8-8278-09c62411b957")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Conn_Coaxial")
+		(at 193.04 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80f6ef24-2023-4e96-bf38-31c053fd5151")
+		(property "Reference" "J3"
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 192.7226 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:PL_PanelMount"
+			(at 193.04 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Use" "RF-OUT"
+			(at 187.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0cd36759-ae52-4ac5-8b3d-55cd37842b66")
+		)
+		(pin "2"
+			(uuid "05a7262e-211a-40c2-b936-100a4943173b")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Rele_2Conm")
+		(at 173.99 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8192c068-823b-4369-b352-a50456c988b5")
+		(property "Reference" "K5"
+			(at 186.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+			(at 171.45 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "f193aabd-52b6-438b-8680-a2ba635d20e4")
+		)
+		(pin "12"
+			(uuid "b787c4b4-9210-4441-bafe-34c5f6e11c2f")
+		)
+		(pin "14"
+			(uuid "85932776-9c87-4d00-90a8-ecc5a0350f78")
+		)
+		(pin "21"
+			(uuid "b10d72d6-2fab-49e7-b7b2-cef56b73de70")
+		)
+		(pin "22"
+			(uuid "a42f354f-89c3-4aeb-bd5e-e0b218e9d6d9")
+		)
+		(pin "24"
+			(uuid "9117bd78-2e2f-47a5-bf83-9f9485d5194e")
+		)
+		(pin "A1"
+			(uuid "58ea4159-0859-46b3-98ce-e81744cfd87f")
+		)
+		(pin "A2"
+			(uuid "4540e9ba-bcd3-40d1-80ef-b8991277c8ec")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Rele_2Conm")
+		(at 237.49 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82b527e5-3320-424a-962c-4440086624b8")
+		(property "Reference" "K3"
+			(at 250.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 234.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+			(at 234.95 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "88e7f56c-6bc8-471c-88d7-38950cf4bb23")
+		)
+		(pin "12"
+			(uuid "e53b026b-9d71-4233-ad06-b5e9a8462b17")
+		)
+		(pin "14"
+			(uuid "92ed31e6-8e7a-4bf1-811d-05327474ae38")
+		)
+		(pin "21"
+			(uuid "52f40e79-79b6-4d9b-b4bc-9b03813e8c68")
+		)
+		(pin "22"
+			(uuid "4d4e884a-586a-480b-80cf-c0d4cd55d6b4")
+		)
+		(pin "24"
+			(uuid "226ca0b5-f7bd-4266-8566-66a1b963f7d3")
+		)
+		(pin "A1"
+			(uuid "26d25c4d-3452-4286-8155-b7dac2cd4b77")
+		)
+		(pin "A2"
+			(uuid "a780c7a5-99e6-4ffd-8023-e52723e9bf06")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 92.71 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82c8d278-1d2b-415e-a266-2cc236fd642d")
+		(property "Reference" "#GND022"
+			(at 95.25 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69c16636-54d6-4739-829e-f24dff35d537")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND015")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 92.71 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92a581a0-268b-4042-9126-da11d77f342f")
+		(property "Reference" "#GND06"
+			(at 95.25 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "584f2f04-763c-4773-bc72-db5811e4f977")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:R")
+		(at 88.9 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9386acd8-5136-4d20-88e1-89cb4b8ca592")
+		(property "Reference" "R1"
+			(at 90.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 90.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 87.122 144.78 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 144.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4dfe160-24ac-4419-acb1-e482019de2a4")
+		)
+		(pin "2"
+			(uuid "6fc76763-26a5-4ba8-9a0d-27e66faf4c87")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Conn_Coaxial")
+		(at 193.04 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9527bade-4d2b-411a-9b76-71a40b18c7bc")
+		(property "Reference" "J6"
+			(at 194.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 192.7226 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:PL_PanelMount"
+			(at 193.04 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Use" "RF-OUT"
+			(at 194.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "fa21c2b3-af04-4e72-ba67-f007086aea11")
+		)
+		(pin "2"
+			(uuid "872d018a-1877-4c2c-8db8-6a23df48ed92")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 163.83 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96b9c4fb-e08a-41da-923d-662144eef2e7")
+		(property "Reference" "#GND027"
+			(at 166.37 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab212d13-b547-494e-a3b0-aaace6d01e53")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND022")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 88.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a257c32b-8024-408d-94d6-f9e92bfb03b6")
+		(property "Reference" "#GND021"
+			(at 91.44 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42ae68a9-250c-4c84-b0f7-6b070eaae2fc")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND014")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:LED_Filled")
+		(at 139.7 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5052f45-d398-4eba-801d-a53f812c7fbd")
+		(property "Reference" "D9"
+			(at 140.97 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 140.97 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 139.7 154.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 154.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c9c3784-f058-426d-a057-d942d51b958a")
+		)
+		(pin "2"
+			(uuid "a521fc3d-3197-4896-a5e8-e6d2dd915ca6")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 193.04 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a615a5c4-7933-44a1-9578-1cabae926f73")
+		(property "Reference" "#GND019"
+			(at 195.58 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 87.63 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57d05b15-d14a-462c-ac8d-cbf6a234c6fe")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND013")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:D_Filled")
+		(at 92.71 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae702b1e-48fe-43e9-91c3-3c2d6fb9e511")
+		(property "Reference" "D1"
+			(at 76.2 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4007"
+			(at 82.55 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 92.71 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 92.71 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 92.71 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdf94e6b-3067-453e-9321-2303b8dbd6bf")
+		)
+		(pin "2"
+			(uuid "1ab0759a-a26c-459a-95b2-2b739ab5faa4")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:D_Filled")
+		(at 156.21 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2eb5631-30a5-4c99-8236-952abc613b1d")
+		(property "Reference" "D5"
+			(at 139.7 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4007"
+			(at 146.05 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 156.21 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 156.21 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88857351-5a38-4e2f-bfd7-545a2625a075")
+		)
+		(pin "2"
+			(uuid "3ee53cda-eb26-4a79-898d-9b817ec60925")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 215.9 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b724495b-9381-4d5a-bc73-4d1ea87b4281")
+		(property "Reference" "#GND038"
+			(at 218.44 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27ac7b2c-eb32-4017-a597-c70b09f80557")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND049")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 107.95 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b77056da-a97d-4388-add0-e2c747cad91f")
+		(property "Reference" "#GND08"
+			(at 110.49 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aba6ca39-fb48-4e7a-a502-48a6dc4f44b9")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND05")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 88.9 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1186580-f537-4dd7-ac13-a71ec8c47823")
+		(property "Reference" "#GND05"
+			(at 91.44 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ab1cfe8-9593-4c98-87e3-ac63f9b97472")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:LED_Filled")
+		(at 165.1 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3fd8954-3324-4e03-8af7-4c8378f35bf0")
+		(property "Reference" "D10"
+			(at 166.37 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 166.37 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 165.1 154.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 154.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d810c0e-1e17-4c27-ab26-ae2853146619")
+		)
+		(pin "2"
+			(uuid "c7d8c69e-92bc-4be6-9eda-829563b65fbc")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Screw_Terminal_01x07")
+		(at 31.75 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd741832-26db-4c6d-8235-e1501841d7aa")
+		(property "Reference" "J2"
+			(at 30.226 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x07"
+			(at 31.75 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-7-5.08_1x07_P5.08mm_Horizontal"
+			(at 31.75 46.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 46.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Use" "Control"
+			(at 29.972 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "369e8466-3281-4d9c-b0e1-8828c0bb65d2")
+		)
+		(pin "2"
+			(uuid "a94ebdcb-6f48-4187-b411-1f9b0f822a49")
+		)
+		(pin "3"
+			(uuid "b9995988-353d-4a0f-a321-c3d955d38b50")
+		)
+		(pin "4"
+			(uuid "fbacaa0c-e29c-47fc-b1b3-bee6574ba170")
+		)
+		(pin "5"
+			(uuid "b4a27df2-0231-4c97-8983-deb7a897cfef")
+		)
+		(pin "6"
+			(uuid "96007126-8341-478a-ba92-1964ea56cb6a")
+		)
+		(pin "7"
+			(uuid "a666af34-94f9-435c-9023-9e78acd9c958")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:LED_Filled")
+		(at 190.5 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d150544b-8017-484f-b27c-43358d5f3777")
+		(property "Reference" "D11"
+			(at 191.77 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 191.77 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 190.5 154.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 154.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e4bdbd9-e4d6-4965-a64b-4d73210df1f4")
+		)
+		(pin "2"
+			(uuid "fe6d9ed3-bdc8-4fa1-aa76-64f9a2caa11a")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 100.33 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5600d3e-742a-43fd-b604-cd4ea217567d")
+		(property "Reference" "#GND07"
+			(at 102.87 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ecc8fdb-9f33-4e58-bc31-f425ce4eb20d")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 139.7 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbcc5a9e-003d-4d86-8baa-67995cebad7c")
+		(property "Reference" "#GND035"
+			(at 142.24 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fc498e5-dddc-4c2f-abdd-b15544b3e1b9")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND043")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:LED_Filled")
+		(at 88.9 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddbee60f-73a7-4ac2-9d13-a2ab28daf016")
+		(property "Reference" "D7"
+			(at 90.17 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 90.17 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 88.9 154.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 154.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "927f4a57-9d9f-44d6-9bec-e421fdf8b71c")
+		)
+		(pin "2"
+			(uuid "dd2a57aa-57ea-4a66-92f7-768ea2d35d0c")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 31.75 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddd269dc-b5ec-45d1-a787-464abf2004b0")
+		(property "Reference" "#GND017"
+			(at 34.29 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 83.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 85.09 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e60e26a-b973-4e2e-8a5b-10e89366e36c")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND07")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:D_Filled")
+		(at 219.71 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de4719d4-daa9-4113-b0a3-e690ad82b690")
+		(property "Reference" "D6"
+			(at 203.2 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4007"
+			(at 209.55 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 219.71 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 219.71 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 219.71 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8f64c81-b471-4032-add4-38b2982ed406")
+		)
+		(pin "2"
+			(uuid "7fea72c4-eb19-47c4-8847-241991ff669c")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 165.1 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df680f03-2bb5-44ca-b545-3cf971f3f581")
+		(property "Reference" "#GND036"
+			(at 167.64 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5941e17b-6f12-4cac-b50b-77e3de6f7a4c")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND045")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:C")
+		(at 215.9 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0281d5e-f6a0-4c5a-bb17-d13ab018c0af")
+		(property "Reference" "C3"
+			(at 201.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 205.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 216.8652 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "716bf0e2-fb75-4626-9e33-7b0bb8d63140")
+		)
+		(pin "2"
+			(uuid "14768df7-c0d5-4693-8d73-ff183e5bea37")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 215.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e53333b2-df2f-42a2-b289-88dcafaa89bc")
+		(property "Reference" "#GND029"
+			(at 218.44 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86d30e28-0b5f-4518-8c07-9417be5464b8")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND032")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:R")
+		(at 165.1 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e64c1a8b-e53d-4bb4-9ac7-0f1d619cc9c6")
+		(property "Reference" "R4"
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 166.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 163.322 144.78 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 144.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d79eb7c9-2380-4645-991d-d2d11e58749c")
+		)
+		(pin "2"
+			(uuid "82b7bc08-ec6d-4e9b-9bab-6164c8fcc06b")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:D_Filled")
+		(at 156.21 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7388f62-18a1-4544-a8a8-2ae090b67f2e")
+		(property "Reference" "D2"
+			(at 139.7 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n4007"
+			(at 146.05 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 156.21 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 156.21 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0cfd265-0779-43a4-a013-3f112f510dce")
+		)
+		(pin "2"
+			(uuid "81e1e5f7-9c8b-483f-beb0-cc3492d94a6a")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 193.04 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e785584f-da9d-4859-bd08-d77a8251bfa8")
+		(property "Reference" "#GND012"
+			(at 195.58 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ec03d50-f3f8-4a2e-a545-bf3083a5bbf8")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND025")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 219.71 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8d402b8-d7a6-4fe0-9cc8-91f16c8135f3")
+		(property "Reference" "#GND030"
+			(at 222.25 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3ac83ad-146b-4767-a335-dcebec605355")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND033")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:C")
+		(at 215.9 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9999f66-90e2-475f-b252-4430927abbc1")
+		(property "Reference" "C6"
+			(at 201.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 216.8652 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "291d4600-9996-4d97-97c0-b66c6bea67cc")
+		)
+		(pin "2"
+			(uuid "83a477b8-0e1f-46f6-a582-3004ec9e1698")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 234.95 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea75a55c-c1ea-455b-8a82-df799fc7a097")
+		(property "Reference" "#GND032"
+			(at 237.49 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "357147f3-652a-43d0-8b47-b7e06de97e1c")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND029")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cpower:GND")
+		(at 152.4 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eee69a4e-7378-48fe-b75b-50d507603ee7")
+		(property "Reference" "#GND025"
+			(at 154.94 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 113.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d48f627c-6c2b-4efc-a83b-fceb8645fb8d")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "#GND020")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#GND025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:Conn_Coaxial")
+		(at 256.54 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4d1c607-d738-4ea1-bcb8-6c145785e1a8")
+		(property "Reference" "J7"
+			(at 254 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 256.2226 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:PL_PanelMount"
+			(at 256.54 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Use" "RF-OUT"
+			(at 254 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d691886d-e4b9-4d3a-9204-5a82aa8527c1")
+		)
+		(pin "2"
+			(uuid "ae086014-99a4-4887-b9a4-678f79b6708b")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic:C")
+		(at 88.9 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9e77c5e-4135-47ff-a294-0a76e1aa3262")
+		(property "Reference" "C1"
+			(at 74.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 89.8652 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "972cf1a9-9c38-49e2-b122-93bfd984c933")
+		)
+		(pin "2"
+			(uuid "0264ca83-9df9-4d2a-83dc-6b19e606d02a")
+		)
+		(instances
+			(project "conmutador_antenas_1x6"
+				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
