@@ -11,278 +11,7 @@
 		(company "WSW electrónica")
 	)
 	(lib_symbols
-		(symbol "Cpower:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#GND"
-				(at 2.54 1.27 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 1.27 1.27 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "schematic:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "schematic:Conn_Coaxial"
+		(symbol "CA16:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -453,7 +182,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "schematic:D_Filled"
+		(symbol "CA16:D_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -622,7 +351,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "schematic:LED_Filled"
+		(symbol "CA16:LED_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -797,7 +526,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "schematic:R"
+		(symbol "CA16:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -922,7 +651,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "schematic:Rele_2Conm"
+		(symbol "CA16:Rele_2Conm"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1430,7 +1159,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "schematic:Screw_Terminal_01x07"
+		(symbol "CA16:Screw_Terminal_01x07"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1886,6 +1615,108 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND1"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "RF - IN"
 		(exclude_from_sim no)
@@ -2004,10 +1835,10 @@
 		(uuid "04263563-5dcb-4647-af28-7c2d3ae95780")
 	)
 	(junction
-		(at 184.15 62.23)
+		(at 173.99 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "07613b1e-f6ba-4e4b-989e-1c773599821e")
+		(uuid "0553eb9d-d2a2-4c6d-b529-5b27d505d9b6")
 	)
 	(junction
 		(at 92.71 36.83)
@@ -2028,16 +1859,16 @@
 		(uuid "18a313bb-311a-44a3-8e49-f8cfc0c570c0")
 	)
 	(junction
+		(at 171.45 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18e022be-fe69-4481-bf34-f6bd858db89a")
+	)
+	(junction
 		(at 215.9 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "200e92b2-0914-4696-8d17-0613df90ecd4")
-	)
-	(junction
-		(at 171.45 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2479cb47-28cf-4577-a3bd-55e7d71043c7")
 	)
 	(junction
 		(at 123.19 62.23)
@@ -2046,22 +1877,22 @@
 		(uuid "26c28cd8-ddc0-4aea-9b6e-1d568dc2c271")
 	)
 	(junction
-		(at 107.95 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2821b5c4-e3f8-4002-9090-7ecb03689eaf")
-	)
-	(junction
-		(at 88.9 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ba55850-cb67-49cd-9baf-06b3feb81721")
-	)
-	(junction
 		(at 88.9 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c27e327-5f7f-4f2e-8385-24da7f16c9e3")
+	)
+	(junction
+		(at 110.49 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ffd7f6c-fb86-4a15-b5d2-a20ac0678323")
+	)
+	(junction
+		(at 237.49 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38073aa2-c937-43f3-8243-808d971053d0")
 	)
 	(junction
 		(at 67.31 31.75)
@@ -2076,22 +1907,16 @@
 		(uuid "4c76e262-4dd0-46a6-b64b-87d3ab44251b")
 	)
 	(junction
-		(at 215.9 81.28)
+		(at 237.49 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f3eb23c-29bb-4bd7-bbd6-54f932c98790")
+		(uuid "53d5aeba-27e4-4877-9db1-b51e85c2cd35")
 	)
 	(junction
 		(at 107.95 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f52644c-c6cb-416c-a6b9-67e80f43a19c")
-	)
-	(junction
-		(at 247.65 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60b025fc-b704-48dd-b412-f5f343f7f8fb")
 	)
 	(junction
 		(at 53.34 31.75)
@@ -2106,10 +1931,22 @@
 		(uuid "673bb6a8-7693-4be8-b501-6998732b1c26")
 	)
 	(junction
+		(at 120.65 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e1996e8-c753-4f5c-a6fd-d4bc0c4c53b6")
+	)
+	(junction
 		(at 171.45 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ec7a588-a895-493b-88f4-7a60575332aa")
+	)
+	(junction
+		(at 186.69 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "750b02ca-1ea7-4eac-a13c-d1101b333683")
 	)
 	(junction
 		(at 139.7 149.86)
@@ -2130,22 +1967,16 @@
 		(uuid "848840f9-5224-4332-bb24-41eb56a4deda")
 	)
 	(junction
-		(at 234.95 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "884a0ed4-edfc-4716-a5eb-339d25cb41ef")
-	)
-	(junction
 		(at 156.21 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bbd2d12-e60b-4d3e-9e50-4c1eb4683a6d")
 	)
 	(junction
-		(at 152.4 81.28)
+		(at 247.65 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d1685c6-0c2e-492a-afd3-dff486c1f61d")
+		(uuid "8cf1ce42-4ded-48e4-85b5-6f0c9a143fa8")
 	)
 	(junction
 		(at 219.71 81.28)
@@ -2160,22 +1991,10 @@
 		(uuid "9a568f30-309a-4ac4-bb9c-e38153db1611")
 	)
 	(junction
-		(at 120.65 106.68)
+		(at 107.95 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a767ad99-d7cf-4f18-8563-3fa9f47ca0d0")
-	)
-	(junction
-		(at 113.03 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac63d19a-8307-47e9-ac00-d1f8f7e73828")
-	)
-	(junction
-		(at 88.9 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad58a6ee-3798-4f66-9ae7-3f952757e025")
+		(uuid "9ce2c842-2ae1-4061-8e02-ce9b0448b8ed")
 	)
 	(junction
 		(at 120.65 36.83)
@@ -2184,16 +2003,16 @@
 		(uuid "b8704143-4baa-4fba-8ab4-893aba806764")
 	)
 	(junction
-		(at 176.53 36.83)
+		(at 173.99 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8d4b10a-bf71-4ffa-89fb-785acf24a178")
+		(uuid "bffc738d-606e-4b62-906e-30b50ec2c088")
 	)
 	(junction
-		(at 215.9 36.83)
+		(at 110.49 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d12adb43-7cec-4b3a-905c-de2d2b59c91b")
+		(uuid "cd6f7aab-03fe-4ea5-9399-4191872117aa")
 	)
 	(junction
 		(at 247.65 81.28)
@@ -2220,10 +2039,22 @@
 		(uuid "d4197623-c6fb-4cb6-a385-39a1ab78f6eb")
 	)
 	(junction
-		(at 240.03 36.83)
+		(at 250.19 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eddbba76-b359-42eb-ac84-12d42d3fba56")
+		(uuid "dcd930ad-d345-4615-b015-832f3ce4b832")
+	)
+	(junction
+		(at 123.19 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1519969-1327-4b3b-9284-4f30711d655e")
+	)
+	(junction
+		(at 184.15 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec6e8c0e-f29d-4a69-9d58-253e1561c9fc")
 	)
 	(junction
 		(at 250.19 106.68)
@@ -2232,10 +2063,10 @@
 		(uuid "efa9fa8b-affe-4779-8a06-bffe89c440ca")
 	)
 	(junction
-		(at 152.4 36.83)
+		(at 234.95 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f96c4155-ed7e-49e7-9ceb-00a8731be3c1")
+		(uuid "ff65553f-6742-4a10-9983-8b743bbfac3b")
 	)
 	(bus_entry
 		(at 48.26 44.45)
@@ -2461,16 +2292,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 101.6) (xy 110.49 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0580d001-a9eb-4af6-9018-982d665a3175")
-	)
-	(wire
-		(pts
 			(xy 184.15 86.36) (xy 184.15 81.28)
 		)
 		(stroke
@@ -2491,33 +2312,13 @@
 	)
 	(polyline
 		(pts
-			(xy 266.7 120.65) (xy 266.7 17.78)
+			(xy 269.24 120.65) (xy 269.24 17.78)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "07656b60-020f-4a92-99c7-2d3ac931a096")
-	)
-	(wire
-		(pts
-			(xy 256.54 67.31) (xy 256.54 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07a90b6d-10f3-4bfc-983b-ef4dca176db4")
-	)
-	(wire
-		(pts
-			(xy 88.9 93.98) (xy 88.9 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ee3911-cf3e-4f05-9ceb-fe6d529cc24d")
 	)
 	(polyline
 		(pts
@@ -2551,7 +2352,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 81.28) (xy 156.21 81.28)
+			(xy 184.15 36.83) (xy 187.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09489dca-138b-49f5-bd2f-f50f5f5a65d2")
+	)
+	(wire
+		(pts
+			(xy 140.97 81.28) (xy 156.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2568,36 +2379,6 @@
 			(type default)
 		)
 		(uuid "09a84b69-4ef8-4a3b-b26e-ac3c5aa7e4c1")
-	)
-	(wire
-		(pts
-			(xy 240.03 36.83) (xy 240.03 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09dd6004-d8d8-4165-b1d6-4300deac8a97")
-	)
-	(wire
-		(pts
-			(xy 245.11 39.37) (xy 234.95 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c36d032-adda-48f6-b0ac-6b3820d8b553")
-	)
-	(wire
-		(pts
-			(xy 184.15 62.23) (xy 187.96 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0db98247-93da-4aad-98da-a91baed0b14d")
 	)
 	(wire
 		(pts
@@ -2629,6 +2410,26 @@
 		)
 		(uuid "0f7a5455-184f-4018-99bf-965f2d6a09b9")
 	)
+	(wire
+		(pts
+			(xy 186.69 62.23) (xy 176.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fef63c8-de1c-46a6-8d5e-5676b04f20f0")
+	)
+	(wire
+		(pts
+			(xy 255.27 62.23) (xy 250.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d9d5b3-91ed-4fab-8606-625c289cf108")
+	)
 	(bus
 		(pts
 			(xy 125.73 133.35) (xy 151.13 133.35)
@@ -2651,17 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 36.83) (xy 92.71 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12f2e0ed-a2b7-40ef-bdac-5232c0345864")
-	)
-	(wire
-		(pts
-			(xy 227.33 57.15) (xy 227.33 69.85)
+			(xy 227.33 57.15) (xy 227.33 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2711,16 +2502,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 49.53) (xy 88.9 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1863985c-21ac-46c3-87dc-61909b160437")
-	)
-	(wire
-		(pts
 			(xy 39.37 54.61) (xy 40.64 54.61)
 		)
 		(stroke
@@ -2749,16 +2530,6 @@
 		)
 		(uuid "19d1ef6a-7013-434b-ab18-64e7b79812f7")
 	)
-	(wire
-		(pts
-			(xy 193.04 67.31) (xy 193.04 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a092db9-a136-4125-9ab8-ce6bc7fb9e12")
-	)
 	(bus
 		(pts
 			(xy 50.8 36.83) (xy 50.8 34.29)
@@ -2769,16 +2540,6 @@
 		)
 		(uuid "1e646f36-7f5f-43fc-82d9-a9965fad9396")
 	)
-	(wire
-		(pts
-			(xy 237.49 62.23) (xy 247.65 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20691b57-2598-488e-9011-9d8e9f84c715")
-	)
 	(polyline
 		(pts
 			(xy 26.67 105.41) (xy 57.15 105.41)
@@ -2788,6 +2549,16 @@
 			(type dot)
 		)
 		(uuid "20c28060-f6a9-46d6-83e3-7c0b9b1455f2")
+	)
+	(wire
+		(pts
+			(xy 237.49 36.83) (xy 247.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b4dfa1-b81c-4bf9-a2eb-e7373f2d247e")
 	)
 	(bus
 		(pts
@@ -2811,7 +2582,7 @@
 	)
 	(polyline
 		(pts
-			(xy 71.12 128.27) (xy 265.43 128.27)
+			(xy 71.12 128.27) (xy 267.97 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2839,6 +2610,26 @@
 		)
 		(uuid "25606e08-794e-41cf-8dd8-75c3f3312c77")
 	)
+	(bus
+		(pts
+			(xy 201.93 133.35) (xy 204.47 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2589e9e9-e73b-40a4-ac22-5fb5e53f55e0")
+	)
+	(wire
+		(pts
+			(xy 172.72 36.83) (xy 173.99 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ad0294-32bf-4ff8-b9b5-17fdabbccfe2")
+	)
 	(wire
 		(pts
 			(xy 120.65 41.91) (xy 120.65 36.83)
@@ -2851,7 +2642,7 @@
 	)
 	(polyline
 		(pts
-			(xy 63.5 120.65) (xy 266.7 120.65)
+			(xy 63.5 120.65) (xy 269.24 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2879,6 +2670,16 @@
 		)
 		(uuid "312bae40-6aef-42ab-bb6a-45db8b89b653")
 	)
+	(wire
+		(pts
+			(xy 113.03 101.6) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c4c2c8-1428-41a0-b095-33671549857f")
+	)
 	(bus
 		(pts
 			(xy 50.8 44.45) (xy 50.8 41.91)
@@ -2888,6 +2689,16 @@
 			(type default)
 		)
 		(uuid "3210119d-f9df-4e46-9684-8d9b7b03cfc0")
+	)
+	(wire
+		(pts
+			(xy 120.65 86.36) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337e3d70-1a57-4647-bd86-244fbc0e7c3e")
 	)
 	(wire
 		(pts
@@ -2901,7 +2712,7 @@
 	)
 	(polyline
 		(pts
-			(xy 64.77 25.4) (xy 265.43 25.4)
+			(xy 67.31 25.4) (xy 267.97 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2911,7 +2722,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 49.53) (xy 219.71 69.85)
+			(xy 219.71 49.53) (xy 219.71 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2961,17 +2772,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 86.36) (xy 118.11 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39a04ff6-420e-4d81-8c58-8b8ba40626fa")
-	)
-	(wire
-		(pts
-			(xy 163.83 101.6) (xy 163.83 114.3)
+			(xy 163.83 101.6) (xy 163.83 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3011,13 +2812,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 36.83) (xy 240.03 36.83)
+			(xy 110.49 81.28) (xy 120.65 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4062feb7-4fcb-486b-9b67-07c8f702f1e6")
+		(uuid "429aa81b-ca6f-4eb1-a64d-ee7b4bae94d6")
 	)
 	(bus
 		(pts
@@ -3028,6 +2829,16 @@
 			(type default)
 		)
 		(uuid "437c4605-e79e-4d82-9cd8-879d4e317672")
+	)
+	(wire
+		(pts
+			(xy 236.22 36.83) (xy 237.49 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441be19b-e142-44a8-a551-7e2485365ecd")
 	)
 	(wire
 		(pts
@@ -3081,23 +2892,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 35.56) (xy 120.65 36.83)
+			(xy 237.49 41.91) (xy 237.49 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46df1120-aec9-40bc-be57-dd081e78cbeb")
+		(uuid "47893376-1ffd-4a0f-89eb-8035a21aa2de")
 	)
 	(wire
 		(pts
-			(xy 102.87 83.82) (xy 107.95 83.82)
+			(xy 181.61 59.69) (xy 171.45 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4810e294-c5dd-4957-a8e1-00afe1fec779")
+		(uuid "47d63dcd-6f16-4d3b-bc56-a4e9458829e3")
 	)
 	(bus
 		(pts
@@ -3141,7 +2952,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 158.75) (xy 139.7 161.29)
+			(xy 139.7 158.75) (xy 139.7 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3158,16 +2969,6 @@
 			(type default)
 		)
 		(uuid "52af5db3-4053-4b15-8099-400c961d6776")
-	)
-	(wire
-		(pts
-			(xy 88.9 81.28) (xy 88.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54bb1e4b-86ab-409d-9a4d-c970575d43be")
 	)
 	(wire
 		(pts
@@ -3191,26 +2992,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 62.23) (xy 184.15 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56058443-acf0-4823-aa8a-3df6f1b5c225")
-	)
-	(wire
-		(pts
-			(xy 184.15 57.15) (xy 184.15 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "560caedf-6ea5-4dc3-a3c5-acbbacb933e0")
-	)
-	(wire
-		(pts
 			(xy 128.27 138.43) (xy 139.7 138.43)
 		)
 		(stroke
@@ -3221,7 +3002,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 49.53) (xy 156.21 69.85)
+			(xy 156.21 49.53) (xy 156.21 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3261,6 +3042,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 36.83) (xy 184.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a369d50-c1ab-472c-897c-1ce45c4d23cb")
+	)
+	(wire
+		(pts
+			(xy 171.45 57.15) (xy 171.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3cd732-581d-45de-aac6-1f6491432b06")
+	)
+	(wire
+		(pts
 			(xy 171.45 101.6) (xy 171.45 104.14)
 		)
 		(stroke
@@ -3271,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 57.15) (xy 163.83 69.85)
+			(xy 163.83 57.15) (xy 163.83 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3289,16 +3090,6 @@
 		)
 		(uuid "5b173c0d-53fd-4a8f-aa71-ae0d184db228")
 	)
-	(wire
-		(pts
-			(xy 77.47 81.28) (xy 88.9 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b381756-2a5e-460b-9c4b-ed605924cee5")
-	)
 	(bus
 		(pts
 			(xy 138.43 31.75) (xy 201.93 31.75)
@@ -3311,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 81.28) (xy 92.71 81.28)
+			(xy 77.47 81.28) (xy 92.71 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3331,6 +3122,26 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 57.15) (xy 181.61 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a91689-9aad-487f-8df4-b8a5e7d1f0d3")
+	)
+	(wire
+		(pts
+			(xy 256.54 86.36) (xy 256.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6397e3b3-cb12-465a-859d-1d8d645fe99d")
+	)
+	(wire
+		(pts
 			(xy 88.9 149.86) (xy 93.98 149.86)
 		)
 		(stroke
@@ -3341,7 +3152,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 101.6) (xy 227.33 114.3)
+			(xy 227.33 101.6) (xy 227.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3351,23 +3162,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 101.6) (xy 100.33 114.3)
+			(xy 176.53 57.15) (xy 176.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6652856f-79b7-4390-9170-295391155b2a")
+	)
+	(wire
+		(pts
+			(xy 100.33 101.6) (xy 100.33 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "670624f6-5762-4816-9fbd-203ad09442ba")
-	)
-	(wire
-		(pts
-			(xy 107.95 81.28) (xy 113.03 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67f3cfc4-445e-4b84-a5df-cba49f8cc76c")
 	)
 	(polyline
 		(pts
@@ -3381,13 +3192,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 39.37) (xy 171.45 39.37)
+			(xy 128.27 106.68) (xy 123.19 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "696c4f16-6fc9-4314-8848-9548fbbf3add")
+		(uuid "6a9f1eeb-ebce-4951-aedd-3e3899855452")
 	)
 	(wire
 		(pts
@@ -3411,16 +3222,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 83.82) (xy 107.95 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b27f470-1157-447a-a2d5-c1ada5df4d5b")
-	)
-	(wire
-		(pts
 			(xy 215.9 149.86) (xy 215.9 151.13)
 		)
 		(stroke
@@ -3431,23 +3232,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 93.98) (xy 92.71 114.3)
+			(xy 247.65 41.91) (xy 247.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0cfbf0-4191-4b2f-bd98-f40fffe0b279")
+	)
+	(wire
+		(pts
+			(xy 92.71 93.98) (xy 92.71 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6d4b3e8d-8128-42e6-8f48-5f4253ece9ec")
-	)
-	(wire
-		(pts
-			(xy 167.64 39.37) (xy 171.45 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d68db62-45f7-4a19-90b5-b3e52c0ebeec")
 	)
 	(bus
 		(pts
@@ -3461,6 +3262,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 106.68) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e43d8c3-27d3-4fa4-a64f-0261a15463f0")
+	)
+	(wire
+		(pts
 			(xy 184.15 81.28) (xy 187.96 81.28)
 		)
 		(stroke
@@ -3468,16 +3279,6 @@
 			(type default)
 		)
 		(uuid "6e5f56b4-6284-40f2-9720-930385785f48")
-	)
-	(wire
-		(pts
-			(xy 171.45 36.83) (xy 176.53 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e64507c-128f-484a-ba64-b42e8bad0f44")
 	)
 	(bus
 		(pts
@@ -3491,6 +3292,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 106.68) (xy 123.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc8ff55-2ccf-4937-9b45-25ceea041d9e")
+	)
+	(wire
+		(pts
 			(xy 140.97 34.29) (xy 140.97 36.83)
 		)
 		(stroke
@@ -3501,43 +3312,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 36.83) (xy 186.69 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "708bc757-3f2e-4863-a887-6144fb7b4029")
-	)
-	(wire
-		(pts
-			(xy 240.03 36.83) (xy 250.19 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70ce9bb9-9175-4fe0-a7fb-d24100a8d24d")
-	)
-	(wire
-		(pts
-			(xy 234.95 104.14) (xy 234.95 114.3)
+			(xy 234.95 104.14) (xy 234.95 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "71931563-8fd6-49e6-af05-f09dc5f4153c")
-	)
-	(wire
-		(pts
-			(xy 184.15 63.5) (xy 184.15 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ea82ad-f352-4c3c-a2b4-a970d32e9eee")
 	)
 	(wire
 		(pts
@@ -3579,16 +3360,6 @@
 		)
 		(uuid "7809db71-4cc0-4264-a749-673c93573293")
 	)
-	(wire
-		(pts
-			(xy 215.9 49.53) (xy 215.9 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79287ec0-1b0d-4fc8-bc0a-fccb366ce549")
-	)
 	(bus
 		(pts
 			(xy 67.31 31.75) (xy 69.85 34.29)
@@ -3621,7 +3392,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 36.83) (xy 215.9 36.83)
+			(xy 204.47 36.83) (xy 219.71 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3631,13 +3402,23 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 81.28) (xy 215.9 86.36)
+			(xy 129.54 86.36) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8026cc73-cb1a-4bf2-92b7-231f7a6efe1e")
+		(uuid "7fbeb4ed-9e78-4443-beb6-ff1551d9574f")
+	)
+	(wire
+		(pts
+			(xy 234.95 59.69) (xy 234.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802e2535-7a19-43b9-93bf-cb7a82412a83")
 	)
 	(wire
 		(pts
@@ -3681,17 +3462,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 81.28) (xy 152.4 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84e1d4d5-d6be-4dc8-ba7d-867e954e4bae")
-	)
-	(wire
-		(pts
-			(xy 165.1 158.75) (xy 165.1 161.29)
+			(xy 165.1 158.75) (xy 165.1 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3711,13 +3482,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 106.68) (xy 124.46 106.68)
+			(xy 193.04 41.91) (xy 193.04 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88aaa0d4-371a-4bfa-b60d-78b1d03f2a71")
+		(uuid "89b6e0ed-95ec-40f2-a861-9527bf9d7f8b")
+	)
+	(wire
+		(pts
+			(xy 173.99 41.91) (xy 173.99 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a43ca28-e588-4aa0-8ef8-fc75e635cbb4")
 	)
 	(wire
 		(pts
@@ -3741,13 +3522,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 57.15) (xy 173.99 62.23)
+			(xy 118.11 101.6) (xy 118.11 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9237a700-09fa-4cd7-888f-b54857d0c8c7")
+		(uuid "8f0a7918-aec6-4a9a-98e4-574d2472551f")
 	)
 	(wire
 		(pts
@@ -3761,7 +3542,7 @@
 	)
 	(polyline
 		(pts
-			(xy 266.7 17.78) (xy 63.5 17.78)
+			(xy 269.24 17.78) (xy 63.5 17.78)
 		)
 		(stroke
 			(width 0)
@@ -3779,26 +3560,6 @@
 		)
 		(uuid "94e46331-b64f-4173-9146-b3a04f0fdc96")
 	)
-	(wire
-		(pts
-			(xy 250.19 41.91) (xy 250.19 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95af97f0-1310-4f9b-8fa0-b35d8b8d7d1b")
-	)
-	(wire
-		(pts
-			(xy 140.97 81.28) (xy 152.4 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95b31db8-5658-4822-8c13-cfdfed1abb4d")
-	)
 	(bus
 		(pts
 			(xy 50.8 46.99) (xy 50.8 44.45)
@@ -3808,16 +3569,6 @@
 			(type default)
 		)
 		(uuid "961ed3e2-6541-4ac2-a45c-1e5bf2153bda")
-	)
-	(wire
-		(pts
-			(xy 237.49 57.15) (xy 237.49 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97657a8a-ace4-4c7e-a6cf-7e0920238ea2")
 	)
 	(wire
 		(pts
@@ -3831,6 +3582,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 41.91) (xy 184.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9da82a-cc21-459a-a94b-b68a29c43568")
+	)
+	(wire
+		(pts
+			(xy 247.65 36.83) (xy 251.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b74876c-e31f-4a29-aff4-3a8644b6b966")
+	)
+	(wire
+		(pts
 			(xy 123.19 62.23) (xy 123.19 57.15)
 		)
 		(stroke
@@ -3841,23 +3612,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 36.83) (xy 152.4 36.83)
+			(xy 186.69 62.23) (xy 186.69 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bcc1423-597a-427c-8d1a-9e0526c18db6")
-	)
-	(wire
-		(pts
-			(xy 113.03 81.28) (xy 123.19 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ce0f7c9-6631-4b5b-87f3-400d9d6e2d4a")
+		(uuid "9c342f9f-0422-4cf4-8e4b-36c3b81cabe2")
 	)
 	(wire
 		(pts
@@ -3881,7 +3642,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 49.53) (xy 92.71 69.85)
+			(xy 92.71 49.53) (xy 92.71 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3898,16 +3659,6 @@
 			(type default)
 		)
 		(uuid "9e5279dd-0563-4d16-8b2b-a3c7042e0384")
-	)
-	(wire
-		(pts
-			(xy 186.69 41.91) (xy 186.69 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eee628c-8060-4119-8e04-2b58ddfdccbd")
 	)
 	(wire
 		(pts
@@ -3931,7 +3682,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 93.98) (xy 156.21 114.3)
+			(xy 156.21 93.98) (xy 156.21 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3971,13 +3722,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 107.95) (xy 120.65 106.68)
+			(xy 171.45 59.69) (xy 171.45 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1759729-6de8-4864-bde1-454ae3f90ac8")
+		(uuid "a2216185-5220-4a3a-9142-a92b03d55ea9")
 	)
 	(wire
 		(pts
@@ -3988,6 +3739,16 @@
 			(type default)
 		)
 		(uuid "a2b19a1f-5f28-4725-8fde-91b0092b5791")
+	)
+	(wire
+		(pts
+			(xy 191.77 62.23) (xy 186.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2bcfc0c-e25c-4436-8af8-4194c7c04fcc")
 	)
 	(wire
 		(pts
@@ -4008,16 +3769,6 @@
 			(type default)
 		)
 		(uuid "a2dacc08-f2a6-4595-9247-c0ac015d2e1e")
-	)
-	(wire
-		(pts
-			(xy 215.9 93.98) (xy 215.9 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a392a434-1ad4-43d0-b599-b1fcbd79b78c")
 	)
 	(bus
 		(pts
@@ -4041,7 +3792,17 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 81.28) (xy 215.9 81.28)
+			(xy 234.95 57.15) (xy 234.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71affe6-6d27-4143-8fe3-261c52830003")
+	)
+	(wire
+		(pts
+			(xy 204.47 81.28) (xy 219.71 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4081,33 +3842,23 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 63.5) (xy 247.65 62.23)
+			(xy 250.19 62.23) (xy 240.03 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abb4772a-eefb-441f-832e-da1a02c9c5fa")
+		(uuid "abdbdac9-9824-4794-9c57-d37ae97ade8b")
 	)
 	(wire
 		(pts
-			(xy 171.45 104.14) (xy 171.45 114.3)
+			(xy 171.45 104.14) (xy 171.45 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "adb1e3e4-2323-4097-a6c9-018dbcb0136b")
-	)
-	(wire
-		(pts
-			(xy 171.45 41.91) (xy 171.45 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af20c69e-8d98-46cc-bbef-6e5782d31cbe")
 	)
 	(wire
 		(pts
@@ -4141,36 +3892,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 111.76) (xy 129.54 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ad4876-e9e8-4fcc-a54e-eceed3bcd5f0")
-	)
-	(wire
-		(pts
-			(xy 215.9 81.28) (xy 219.71 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2dab612-95cb-4164-bd68-4fb6d1d12add")
-	)
-	(wire
-		(pts
-			(xy 181.61 41.91) (xy 181.61 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b42641c0-16af-40a7-bebb-6187c53b548c")
-	)
-	(wire
-		(pts
 			(xy 114.3 149.86) (xy 119.38 149.86)
 		)
 		(stroke
@@ -4181,16 +3902,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 49.53) (xy 152.4 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6b79582-7c7a-4660-a174-7a1458734924")
-	)
-	(wire
-		(pts
 			(xy 39.37 54.61) (xy 39.37 58.42)
 		)
 		(stroke
@@ -4198,6 +3909,26 @@
 			(type default)
 		)
 		(uuid "b6ef782f-cdcf-4f06-8e01-93dd6b09c130")
+	)
+	(wire
+		(pts
+			(xy 107.95 101.6) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7076397-ae26-4e00-bf33-8f0f2de5a783")
+	)
+	(wire
+		(pts
+			(xy 109.22 36.83) (xy 110.49 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f7df28-5e98-489d-b882-d058ed2b96dd")
 	)
 	(wire
 		(pts
@@ -4231,16 +3962,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 41.91) (xy 234.95 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf58a36-707e-476c-8399-d98d3b7d78a1")
-	)
-	(wire
-		(pts
 			(xy 234.95 101.6) (xy 234.95 104.14)
 		)
 		(stroke
@@ -4258,6 +3979,16 @@
 			(type default)
 		)
 		(uuid "bcf9a7c0-ff91-48c6-97c0-466cef3e5abe")
+	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6495c0-a50f-4a6f-9f26-b1fba5023349")
 	)
 	(wire
 		(pts
@@ -4291,16 +4022,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 40.64) (xy 231.14 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3c4638f-c38b-4d3a-b2ac-bb87758bf0e0")
-	)
-	(wire
-		(pts
 			(xy 36.83 39.37) (xy 48.26 39.37)
 		)
 		(stroke
@@ -4308,26 +4029,6 @@
 			(type default)
 		)
 		(uuid "c5630c11-2b18-44ea-94dd-cb33110bc274")
-	)
-	(wire
-		(pts
-			(xy 247.65 80.01) (xy 247.65 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5bbf699-5a81-4a09-9e3e-20f3428bb235")
-	)
-	(wire
-		(pts
-			(xy 256.54 86.36) (xy 256.54 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c627a895-70d9-438d-8196-e9053005e0dd")
 	)
 	(wire
 		(pts
@@ -4351,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 59.69) (xy 107.95 69.85)
+			(xy 107.95 59.69) (xy 107.95 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4389,9 +4090,29 @@
 		)
 		(uuid "cbde7bd2-dfd3-4dee-b885-84646d0414b2")
 	)
+	(wire
+		(pts
+			(xy 240.03 57.15) (xy 240.03 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdacd622-6d20-4739-9ef1-1152fa122ab9")
+	)
+	(wire
+		(pts
+			(xy 256.54 41.91) (xy 256.54 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf396848-1c68-4087-8a82-fcbdfd909878")
+	)
 	(polyline
 		(pts
-			(xy 63.5 165.1) (xy 266.7 165.1)
+			(xy 63.5 165.1) (xy 269.24 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4408,26 +4129,6 @@
 			(type default)
 		)
 		(uuid "d0d4a8e6-df12-46f2-82ab-f0cc235c5787")
-	)
-	(wire
-		(pts
-			(xy 215.9 36.83) (xy 219.71 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d12b00c5-3182-4419-a052-7595a40d8fa3")
-	)
-	(wire
-		(pts
-			(xy 113.03 81.28) (xy 113.03 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3377736-fd70-4474-bcb4-c39e30104175")
 	)
 	(wire
 		(pts
@@ -4451,43 +4152,23 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 57.15) (xy 247.65 62.23)
+			(xy 245.11 57.15) (xy 245.11 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da9ce6ff-99cb-4867-89b2-2638347cf434")
+		(uuid "da791766-bdbf-4a1e-aac8-ea30b67cfbb6")
 	)
 	(wire
 		(pts
-			(xy 107.95 86.36) (xy 107.95 83.82)
+			(xy 120.65 80.01) (xy 120.65 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db65d7a9-cafb-408d-9c15-a524ea00e457")
-	)
-	(wire
-		(pts
-			(xy 167.64 40.64) (xy 167.64 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcb5b7eb-b204-4840-ab95-0f459cf0342f")
-	)
-	(wire
-		(pts
-			(xy 245.11 41.91) (xy 245.11 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "def6d9b4-3f99-41c5-b2c9-de5915d73bcd")
+		(uuid "dda5ca44-ab20-4224-89af-da9398feba75")
 	)
 	(polyline
 		(pts
@@ -4501,7 +4182,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 93.98) (xy 219.71 114.3)
+			(xy 219.71 93.98) (xy 219.71 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4518,36 +4199,6 @@
 			(type default)
 		)
 		(uuid "e0907dec-ac48-49b1-888c-14fe2646586b")
-	)
-	(wire
-		(pts
-			(xy 120.65 101.6) (xy 120.65 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0f8c575-9818-4f03-a39a-2b9d8985b81f")
-	)
-	(wire
-		(pts
-			(xy 152.4 36.83) (xy 152.4 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e46dab0e-38c0-4950-b295-f1b4be2430a8")
-	)
-	(wire
-		(pts
-			(xy 110.49 106.68) (xy 120.65 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e53ff2d6-79c7-456b-a53f-3082327ee536")
 	)
 	(wire
 		(pts
@@ -4581,13 +4232,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 36.83) (xy 88.9 41.91)
+			(xy 245.11 59.69) (xy 234.95 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e97e81b3-37df-4f7a-86b5-bf81fa6ad286")
+		(uuid "e9ec6444-812c-4b0c-98f1-3f9d91986776")
 	)
 	(wire
 		(pts
@@ -4611,6 +4262,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 62.23) (xy 250.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0c61c0-0f49-4a3e-bbe0-95d1beb9298b")
+	)
+	(wire
+		(pts
 			(xy 219.71 36.83) (xy 227.33 36.83)
 		)
 		(stroke
@@ -4631,16 +4292,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 36.83) (xy 176.53 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec61d55f-5e44-42ea-9d65-d6d047a63e55")
-	)
-	(wire
-		(pts
 			(xy 250.19 106.68) (xy 240.03 106.68)
 		)
 		(stroke
@@ -4651,13 +4302,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 83.82) (xy 102.87 85.09)
+			(xy 109.22 81.28) (xy 110.49 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eddaa383-9419-4427-92d5-6969e90ec559")
+		(uuid "ed9bb0c4-88a4-419d-80cf-abddf3c10156")
 	)
 	(wire
 		(pts
@@ -4689,6 +4340,16 @@
 		)
 		(uuid "f155bf95-d5fe-49af-b656-7a72a57964a7")
 	)
+	(wire
+		(pts
+			(xy 172.72 81.28) (xy 173.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2305901-339e-4f7d-b656-c605c90d20e9")
+	)
 	(bus
 		(pts
 			(xy 151.13 133.35) (xy 176.53 133.35)
@@ -4711,17 +4372,37 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 39.37) (xy 234.95 39.37)
+			(xy 110.49 86.36) (xy 110.49 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4224f88-8ade-445e-8455-563024ee68f6")
+		(uuid "f35b84fc-6793-4668-8079-bd0bb5a67d6e")
 	)
 	(wire
 		(pts
-			(xy 190.5 158.75) (xy 190.5 161.29)
+			(xy 236.22 81.28) (xy 237.49 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3abd6c4-210e-41ef-9051-c90d2e92905e")
+	)
+	(wire
+		(pts
+			(xy 118.11 104.14) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42d7252-297a-45af-9414-7b4f454fa0e9")
+	)
+	(wire
+		(pts
+			(xy 190.5 158.75) (xy 190.5 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4731,7 +4412,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 57.15) (xy 100.33 69.85)
+			(xy 100.33 57.15) (xy 100.33 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4761,16 +4442,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 36.83) (xy 215.9 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f94c91e2-ac39-48c9-ac5a-1083fd0abce2")
-	)
-	(wire
-		(pts
 			(xy 92.71 36.83) (xy 100.33 36.83)
 		)
 		(stroke
@@ -4781,17 +4452,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 62.23) (xy 251.46 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa3fb4c5-3e6e-407d-8e4c-314c3d74018c")
-	)
-	(wire
-		(pts
-			(xy 88.9 158.75) (xy 88.9 161.29)
+			(xy 88.9 158.75) (xy 88.9 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4801,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 158.75) (xy 114.3 161.29)
+			(xy 114.3 158.75) (xy 114.3 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4811,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 36.83) (xy 156.21 36.83)
+			(xy 140.97 36.83) (xy 156.21 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4821,7 +4482,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 36.83) (xy 88.9 36.83)
+			(xy 107.95 104.14) (xy 107.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbea92b4-844a-4a68-8a46-2ec24ffba50c")
+	)
+	(wire
+		(pts
+			(xy 77.47 36.83) (xy 92.71 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4829,35 +4500,15 @@
 		)
 		(uuid "fc463884-c601-47e5-bd44-3eb137ed526a")
 	)
-	(wire
-		(pts
-			(xy 123.19 86.36) (xy 123.19 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd04008-8756-42ca-9c94-7546f1c333c7")
-	)
 	(polyline
 		(pts
-			(xy 266.7 165.1) (xy 266.7 120.65)
+			(xy 269.24 165.1) (xy 269.24 120.65)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "fd3e631b-6790-4418-9f88-5dfbc64d4239")
-	)
-	(wire
-		(pts
-			(xy 152.4 93.98) (xy 152.4 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd6796af-13b6-4b65-a436-abe867455af1")
 	)
 	(label "Antena-[1..6]"
 		(at 77.47 76.2 0)
@@ -4879,6 +4530,16 @@
 		)
 		(uuid "0e5231df-a942-4504-bdd8-c93e91e54856")
 	)
+	(label "RF_{IN}"
+		(at 255.27 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12d2ae96-092c-48f3-8a64-ac8164906247")
+	)
 	(label "Antena-6"
 		(at 205.74 81.28 0)
 		(effects
@@ -4888,16 +4549,6 @@
 			(justify left bottom)
 		)
 		(uuid "13511902-5cf7-4c1a-a04b-2e0106601a8e")
-	)
-	(label "RF_{antena-3}"
-		(at 237.49 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1eb6776e-4f49-47e6-af0b-d2d2dc235f78")
 	)
 	(label "Antena-2"
 		(at 142.24 36.83 0)
@@ -4910,24 +4561,14 @@
 		(uuid "1fdb5f9f-169b-46c2-a3e6-b4fd996c6cf5")
 	)
 	(label "RF_{IN}"
-		(at 234.95 36.83 0)
+		(at 128.27 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "221c321d-4b7c-4806-a3f4-25eda7ef584c")
-	)
-	(label "RF_{IN}"
-		(at 107.95 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25cb848e-fa9f-4018-9362-b3294dc205a5")
+		(uuid "237d2f44-5381-4f90-8623-3461a51a9e85")
 	)
 	(label "Antena-1"
 		(at 46.99 39.37 180)
@@ -4959,6 +4600,16 @@
 		)
 		(uuid "3a9de813-8a89-4561-8c13-3faff8f40de3")
 	)
+	(label "RF_{IN}"
+		(at 191.77 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43099d6e-e4fa-4ca5-90c3-a8ddb4d9b78e")
+	)
 	(label "Antena-2"
 		(at 46.99 41.91 180)
 		(effects
@@ -4968,6 +4619,16 @@
 			(justify right bottom)
 		)
 		(uuid "4678fca4-a853-49b1-a30a-da4eb8cb21e7")
+	)
+	(label "RF_{antena-2}"
+		(at 173.99 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47ea29c3-0476-455e-8dd7-7b2cb177c422")
 	)
 	(label "Antena-[1..6]"
 		(at 142.24 31.75 0)
@@ -4988,6 +4649,16 @@
 			(justify left bottom)
 		)
 		(uuid "4e5b9fed-af4f-462b-83a1-8a17b07a844b")
+	)
+	(label "RF_{antena-4}"
+		(at 110.49 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5da3a776-5f33-4be9-a7e8-dd2167041a96")
 	)
 	(label "Antena-[1..6]"
 		(at 187.96 76.2 0)
@@ -5119,16 +4790,6 @@
 		)
 		(uuid "9126978f-7ae2-4403-a585-64d1ff6d422f")
 	)
-	(label "RF_{antena-2}"
-		(at 173.99 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "953d856f-5d6b-425f-8d50-64bb06192962")
-	)
 	(label "RF_{IN}"
 		(at 41.91 77.47 180)
 		(effects
@@ -5139,15 +4800,15 @@
 		)
 		(uuid "a222b509-4070-4937-a1e6-7ed262513aaa")
 	)
-	(label "RF_{IN}"
-		(at 171.45 36.83 0)
+	(label "RF_{antena-3}"
+		(at 237.49 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b0c99692-af0c-4cea-8b2e-fef01a1107a4")
+		(uuid "b86b871d-9c8a-44e5-b493-b561ec457567")
 	)
 	(label "Antena-6"
 		(at 46.99 52.07 180)
@@ -5249,16 +4910,6 @@
 		)
 		(uuid "d00a9369-ce02-4cbd-a0b0-43511948d5f7")
 	)
-	(label "RF_{antena-4}"
-		(at 110.49 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d37908ca-ead9-475d-bca0-95cb1e43d18d")
-	)
 	(label "RF_{antena-5}"
 		(at 173.99 81.28 0)
 		(effects
@@ -5352,8 +5003,52 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 120.65 35.56 0)
+		(at 120.65 80.01 0)
 		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d4ea46c-c5c6-4c33-b137-1550a6a8fcfc")
+		(property "Net Class" "RF"
+			(at 121.8565 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 109.22 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "479dbc54-df3a-4f4b-bf13-6bcf192aa618")
+		(property "Net Class" "RF"
+			(at 103.378 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 109.22 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5362,53 +5057,7 @@
 		)
 		(uuid "486848c7-f925-4474-802d-db97d693b0aa")
 		(property "Net Class" "RF"
-			(at 121.8565 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 247.65 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ed3a160-5762-4a0e-92bc-51cd00c949a6")
-		(property "Net Class" "RF"
-			(at 248.8565 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 247.65 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "677a8fea-b2d6-439b-8a1e-08008fa0361c")
-		(property "Net Class" "RF"
-			(at 248.8565 77.47 0)
+			(at 103.378 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,6 +5092,94 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
+		(at 236.22 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ba7dbf4-457f-403a-bfc6-f6cd5c1a8e5a")
+		(property "Net Class" "RF"
+			(at 230.378 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape rectangle)
+		(at 204.47 133.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93f15c21-120d-4077-a871-3088188e7b8d")
+		(property "Net Class" "Signal"
+			(at 208.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 172.72 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a08b3b66-cd52-4120-b939-f55b092d13c9")
+		(property "Net Class" "RF"
+			(at 166.878 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 236.22 36.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a313b20f-12dd-45fe-92d2-3ea2b24c8d09")
+		(property "Net Class" "RF"
+			(at 230.378 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
 		(at 184.15 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5454,6 +5191,28 @@
 		(uuid "a72ad760-18a9-45f2-a71e-4518a4ed1cf2")
 		(property "Net Class" "RF"
 			(at 185.3565 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 172.72 36.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba47819d-325c-4b55-abfa-2f77a5635621")
+		(property "Net Class" "RF"
+			(at 166.624 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,52 +5247,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 120.65 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d0e96c10-7b1b-4adc-84fc-6532ae6373cb")
-		(property "Net Class" "RF"
-			(at 121.8565 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 184.15 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8dcab87-6b8f-402d-b0bc-abee9a9f877e")
-		(property "Net Class" "RF"
-			(at 185.3565 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
 		(at 43.18 77.47 270)
 		(effects
 			(font
@@ -5554,25 +5267,16 @@
 		)
 	)
 	(symbol
-		(lib_id "schematic:Conn_Coaxial")
-		(at 256.54 62.23 0)
+		(lib_id "power:GND1")
+		(at 31.75 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "03c0f6a1-051c-4479-9696-f4836e3da9ff")
-		(property "Reference" "J4"
-			(at 255.27 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 256.2226 58.42 0)
+		(uuid "00f3e17d-a3c8-4363-8be0-212591f472e1")
+		(property "Reference" "#PWR07"
+			(at 31.75 91.44 0)
 			(hide yes)
 			(effects
 				(font
@@ -5580,84 +5284,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:PL_PanelMount"
-			(at 256.54 62.23 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 62.23 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Use" "RF-OUT"
-			(at 255.27 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "1e2433c9-7e6f-41fd-92b6-13832e3d5f8a")
-		)
-		(pin "2"
-			(uuid "158c82ec-e21b-4196-87cd-ff2675505831")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Cpower:GND")
-		(at 190.5 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06a57023-56b0-452a-8edb-1f9b3de4be5a")
-		(property "Reference" "#GND037"
-			(at 193.04 160.02 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 160.02 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 32.004 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5665,7 +5293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 161.29 0)
+			(at 31.75 85.09 0)
 			(hide yes)
 			(effects
 				(font
@@ -5674,7 +5302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 161.29 0)
+			(at 31.75 85.09 0)
 			(hide yes)
 			(effects
 				(font
@@ -5682,8 +5310,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 161.29 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 31.75 85.09 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,35 +5320,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "b33d78c9-b2c0-4240-affb-a49ab622f2ab")
+			(uuid "8d3bee69-5412-4608-b1dc-c935e47cbc7c")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND047")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND037")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 163.83 69.85 0)
+		(lib_id "power:GND1")
+		(at 163.83 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ac804ae-b866-431c-9d22-486e23480494")
-		(property "Reference" "#GND011"
-			(at 166.37 68.58 0)
+		(uuid "05cc1880-7a82-45b4-abbc-61bc1156010f")
+		(property "Reference" "#PWR021"
+			(at 163.83 118.11 0)
 			(hide yes)
 			(effects
 				(font
@@ -5727,9 +5349,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 165.1 68.58 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 164.084 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 69.85 0)
+			(at 163.83 111.76 0)
 			(hide yes)
 			(effects
 				(font
@@ -5746,7 +5367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 69.85 0)
+			(at 163.83 111.76 0)
 			(hide yes)
 			(effects
 				(font
@@ -5754,8 +5375,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 163.83 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 163.83 111.76 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,25 +5385,279 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3dbf436-9876-4949-9866-52c5114514da")
+			(uuid "17a096db-12fb-46e9-bb2f-8a223b6ee55e")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND010")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND011")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "schematic:Rele_2Conm")
+		(lib_id "power:GND1")
+		(at 156.21 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b96f76f-9234-4ec6-9d11-807044b538ac")
+		(property "Reference" "#PWR011"
+			(at 156.21 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 156.464 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 156.21 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c616efce-295f-4791-988c-9bb6cc22509e")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 114.3 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "124de748-afbe-4685-a000-1d1bf7fc6bdf")
+		(property "Reference" "#PWR027"
+			(at 114.3 166.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 114.554 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 114.3 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "221b1083-fd0d-483b-af4d-da28020a8e89")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 156.21 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14fef5a8-789c-41e8-80d9-a49054bdccee")
+		(property "Reference" "#PWR020"
+			(at 156.21 118.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 156.464 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1a2b7da-030a-46db-8977-bb0eb4b1652f")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 88.9 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a068e72-a1f5-4311-8e63-577301296910")
+		(property "Reference" "#PWR026"
+			(at 88.9 166.37 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 89.154 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 88.9 160.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07291f0b-3464-4c1b-aeb3-eb5b916a06ce")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CA16:Rele_2Conm")
 		(at 237.49 93.98 0)
 		(mirror x)
 		(unit 1)
@@ -5833,6 +5709,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 237.49 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "f892766f-baa5-433c-911b-859093022f66")
 		)
@@ -5873,81 +5758,7 @@
 		)
 	)
 	(symbol
-		(lib_id "schematic:C")
-		(at 152.4 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22ece6e0-c04c-4cbd-bb09-a9ab33c6314d")
-		(property "Reference" "C5"
-			(at 138.43 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 153.3652 93.98 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58eb3fe8-fdd7-45ab-8d54-2b23060c7ebe")
-		)
-		(pin "2"
-			(uuid "88dab41c-0f5b-4f96-8be2-17a73c02ae2b")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:LED_Filled")
+		(lib_id "CA16:LED_Filled")
 		(at 215.9 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5999,6 +5810,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 215.9 154.94 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "198fd30a-b724-41a7-b88e-aeb753ee1f33")
 		)
@@ -6021,250 +5841,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 231.14 40.64 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27ac81f6-d4a8-4ea7-9957-2be7bc0ebf79")
-		(property "Reference" "#GND02"
-			(at 228.6 39.37 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 229.87 39.37 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 40.64 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 40.64 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91cfe226-2ee9-4aa6-9f74-f3feda8eaff3")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND035")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Cpower:GND")
-		(at 256.54 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28769cf5-1470-43aa-bf10-ac9c65bf4597")
-		(property "Reference" "#GND020"
-			(at 259.08 87.63 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.81 87.63 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 88.9 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a38f94b-222c-467f-850f-1f1e650ba40d")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND031")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Cpower:GND")
-		(at 39.37 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b091f54-c7b7-41f1-851f-660e198064d6")
-		(property "Reference" "#GND04"
-			(at 41.91 57.15 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 57.15 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 58.42 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 58.42 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "84aad629-47a1-4b66-8a42-7e18277afc12")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND038")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:Rele_2Conm")
-		(at 173.99 49.53 0)
+		(lib_id "power:GND1")
+		(at 171.45 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "32314769-eec9-41a6-9872-0fb7c68962f7")
-		(property "Reference" "K2"
-			(at 186.69 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 171.45 49.53 0)
+		(uuid "301a302d-ae13-49c0-8798-838d37415666")
+		(property "Reference" "#PWR013"
+			(at 171.45 73.66 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
-			(at 171.45 49.53 0)
+		(property "Value" "GND1"
+			(at 171.704 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -6273,7 +5876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 49.53 0)
+			(at 171.45 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -6281,55 +5884,29 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 173.99 49.53 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 171.45 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "11"
-			(uuid "7d97eabe-66de-4d5c-85ef-44661cb1857c")
-		)
-		(pin "12"
-			(uuid "b23986ac-a323-4ab5-8a31-c82addd54fa1")
-		)
-		(pin "14"
-			(uuid "ad7424dd-b567-4318-90c0-fc6f6d9b2379")
-		)
-		(pin "21"
-			(uuid "3fdabcb0-19f4-484c-8d98-8be17ccfed4d")
-		)
-		(pin "22"
-			(uuid "30e0b905-d823-4b60-a0c2-e5ac928a70c2")
-		)
-		(pin "24"
-			(uuid "af49e383-a212-45a7-ba34-f46321db9bcc")
-		)
-		(pin "A1"
-			(uuid "bc6dd55c-8161-4569-8345-1425a53b8fb2")
-		)
-		(pin "A2"
-			(uuid "c8e34b71-6655-4357-9fac-6537b25e92fb")
+		(pin "1"
+			(uuid "edc1f587-15d9-4cf8-8d34-ccbe0d7b4f46")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "K2")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "K2")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "schematic:R")
+		(lib_id "CA16:R")
 		(at 190.5 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6381,6 +5958,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 190.5 144.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c67c596-3c69-4b51-a47a-ecb0c5400287")
 		)
@@ -6403,17 +5989,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 227.33 69.85 0)
+		(lib_id "CA16:Conn_Coaxial")
+		(at 256.54 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34ad7ee1-eebd-4c64-b0a5-653bc40d30a8")
-		(property "Reference" "#GND015"
-			(at 229.87 68.58 0)
+		(uuid "344be0e9-2d24-4223-ad0f-991f2db6d552")
+		(property "Reference" "J3"
+			(at 258.318 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 256.2226 33.02 0)
 			(hide yes)
 			(effects
 				(font
@@ -6421,8 +6015,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 228.6 68.58 0)
+		(property "Footprint" "Cfootprints:SO-239"
+			(at 256.54 36.83 0)
 			(hide yes)
 			(effects
 				(font
@@ -6430,17 +6024,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 227.33 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 69.85 0)
+		(property "Datasheet" "~"
+			(at 256.54 36.83 0)
 			(hide yes)
 			(effects
 				(font
@@ -6449,7 +6034,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 69.85 0)
+			(at 256.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Use" "RF-OUT"
+			(at 258.318 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "use" ""
+			(at 256.54 36.83 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,35 +6060,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "edced696-7091-48a6-b10f-f593438cdeb3")
+			(uuid "40b1144f-e27c-4da4-b67e-7ed771b6e79e")
+		)
+		(pin "2"
+			(uuid "4d342592-2771-4372-af2c-e8ead9a027eb")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND028")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND015")
+					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 88.9 161.29 0)
+		(lib_id "power:GND1")
+		(at 193.04 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38d783e0-72ea-4b16-a486-9ffde68b1c83")
-		(property "Reference" "#GND033"
-			(at 91.44 160.02 0)
+		(uuid "438c4e39-6b0f-4a76-a9bc-428b74a1289e")
+		(property "Reference" "#PWR033"
+			(at 193.04 50.8 0)
 			(hide yes)
 			(effects
 				(font
@@ -6493,9 +6092,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 90.17 160.02 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 193.294 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 161.29 0)
+			(at 193.04 44.45 0)
 			(hide yes)
 			(effects
 				(font
@@ -6512,7 +6110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 161.29 0)
+			(at 193.04 44.45 0)
 			(hide yes)
 			(effects
 				(font
@@ -6520,8 +6118,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 88.9 161.29 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 193.04 44.45 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,53 +6128,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "15da00ff-ab55-4e41-9727-a43d0f4f1a08")
+			(uuid "f14a3930-654f-4216-a1ac-7f1d2b35e241")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND039")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND033")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 114.3 161.29 0)
+		(lib_id "CA16:Rele_2Conm")
+		(at 173.99 49.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e52325c-04a5-4eb6-9433-b01eafc522bd")
-		(property "Reference" "#GND034"
-			(at 116.84 160.02 0)
-			(hide yes)
+		(uuid "494225c8-107e-472b-b0ef-90e0ad5ef50c")
+		(property "Reference" "K2"
+			(at 186.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 171.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 115.57 160.02 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 161.29 0)
+		(property "Footprint" "Footprints:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+			(at 171.45 49.53 0)
 			(hide yes)
 			(effects
 				(font
@@ -6584,7 +6176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 161.29 0)
+			(at 171.45 49.53 0)
 			(hide yes)
 			(effects
 				(font
@@ -6593,178 +6185,57 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 161.29 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
-			(uuid "9735c914-b30c-41a4-bfc0-bf4b62c3fb2b")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND041")
-					(unit 1)
+		(property "use" ""
+			(at 173.99 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
-			(project "conmutador_antenas_1x6"
+		)
+		(pin "11"
+			(uuid "e7482a09-fef8-4fb7-96a1-72c3e63da198")
+		)
+		(pin "12"
+			(uuid "5048fdd4-cc60-4483-82ed-85a0c29c2beb")
+		)
+		(pin "14"
+			(uuid "c2c4a71b-03d1-41a6-8a20-55f7ec8e86fe")
+		)
+		(pin "21"
+			(uuid "54b3fc4d-5c71-4ea5-8d51-1a2768877769")
+		)
+		(pin "22"
+			(uuid "939934c1-b158-4bc8-8234-d2c05d655191")
+		)
+		(pin "24"
+			(uuid "b4fc3d16-13b2-4233-8f82-4393f189c7c5")
+		)
+		(pin "A1"
+			(uuid "4bee6a81-bdca-44f0-9a72-79b2831dff58")
+		)
+		(pin "A2"
+			(uuid "cffbf618-6148-4177-a73d-239ccdbcc636")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND034")
+					(reference "K2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 100.33 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f36a0ef-b641-4750-954f-20bba68a506c")
-		(property "Reference" "#GND023"
-			(at 102.87 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a06fcbb-87c3-481f-9f48-48ea24cbf260")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND016")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Cpower:GND")
-		(at 167.64 40.64 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fae99db-bd77-41b4-8676-3eade625c9f9")
-		(property "Reference" "#GND01"
-			(at 165.1 39.37 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 39.37 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 40.64 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 40.64 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "12d34d67-6e5c-4ea3-95b0-20d359e53d37")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND023")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:Conn_Coaxial")
+		(lib_id "CA16:Conn_Coaxial")
 		(at 31.75 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -6790,7 +6261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:PL_PanelMount"
+		(property "Footprint" "Cfootprints:SO-239"
 			(at 31.75 77.47 0)
 			(hide yes)
 			(effects
@@ -6824,6 +6295,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 31.75 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c76a401f-6054-4289-b1d6-8390410288c3")
 		)
@@ -6846,17 +6326,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 215.9 69.85 0)
+		(lib_id "power:GND1")
+		(at 256.54 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b2b7f1b-5262-4703-acfd-268a88e18b51")
-		(property "Reference" "#GND013"
-			(at 218.44 68.58 0)
+		(uuid "49e687ec-345f-44f0-b63a-715e2134f6fe")
+		(property "Reference" "#PWR034"
+			(at 256.54 50.8 0)
 			(hide yes)
 			(effects
 				(font
@@ -6864,9 +6343,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 217.17 68.58 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 256.794 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +6352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 69.85 0)
+			(at 256.54 44.45 0)
 			(hide yes)
 			(effects
 				(font
@@ -6883,7 +6361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 69.85 0)
+			(at 256.54 44.45 0)
 			(hide yes)
 			(effects
 				(font
@@ -6891,8 +6369,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 215.9 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 256.54 44.45 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6900,35 +6379,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "af3918e8-ed3b-48b7-8d62-8546d287c1d9")
+			(uuid "d835dcbe-3e63-4359-8001-b9b2d3adc613")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND026")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND013")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 152.4 69.85 0)
+		(lib_id "power:GND1")
+		(at 219.71 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50b456fa-e58d-483b-8edc-9ea0052b4334")
-		(property "Reference" "#GND09"
-			(at 154.94 68.58 0)
+		(uuid "4ff55233-6b98-4ab1-b291-6420f56fa83e")
+		(property "Reference" "#PWR014"
+			(at 219.71 73.66 0)
 			(hide yes)
 			(effects
 				(font
@@ -6936,9 +6408,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 153.67 68.58 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 219.964 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6946,7 +6417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 69.85 0)
+			(at 219.71 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -6955,7 +6426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 69.85 0)
+			(at 219.71 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -6963,8 +6434,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 219.71 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,25 +6444,149 @@
 			)
 		)
 		(pin "1"
-			(uuid "62482c7d-b2dd-4cda-9d5b-7b9a6bee0410")
+			(uuid "b9a47f8f-bf68-409e-94f4-9dd4033fb49f")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND08")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND09")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "schematic:LED_Filled")
+		(lib_id "power:GND1")
+		(at 129.54 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54987bcf-68bd-4de3-a641-3a6b71b7d391")
+		(property "Reference" "#PWR032"
+			(at 129.54 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 129.794 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 129.54 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06199a5e-d692-48ca-98c2-d5cd331dc9f8")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 100.33 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55361dc7-3166-4df1-a1c5-c75ff4f6d71f")
+		(property "Reference" "#PWR09"
+			(at 100.33 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 100.584 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 100.33 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ce01771-ab1e-431c-a442-d49d1c9418c0")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CA16:LED_Filled")
 		(at 114.3 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7042,6 +6638,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 114.3 154.94 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4aac5244-5ac6-4c53-9262-94b5094d7f89")
 		)
@@ -7064,245 +6669,7 @@
 		)
 	)
 	(symbol
-		(lib_id "schematic:C")
-		(at 88.9 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5810d88e-e0ab-4542-b909-00863c4bc2de")
-		(property "Reference" "C4"
-			(at 74.93 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 78.74 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 89.8652 93.98 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9190ac12-0b53-46a2-8ab0-a737a1e00fb6")
-		)
-		(pin "2"
-			(uuid "54c9c288-594c-4bfb-b1bd-fc01b57ebc26")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Cpower:GND")
-		(at 102.87 85.09 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "589e77d8-7d53-410b-b2ab-1ec29ecd948d")
-		(property "Reference" "#GND018"
-			(at 100.33 83.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 83.82 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 85.09 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "233b5eb1-9dea-4084-b591-8c5d73587e0e")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND017")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:Rele_2Conm")
-		(at 110.49 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5bbd23a6-0f9f-4b40-819f-0be9236f96ea")
-		(property "Reference" "K4"
-			(at 123.19 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 107.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
-			(at 107.95 93.98 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 93.98 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "e6813325-ebc8-4662-bbb5-27239c56144c")
-		)
-		(pin "12"
-			(uuid "a6e3ccc0-ab63-4f52-87f2-04ace9acb87b")
-		)
-		(pin "14"
-			(uuid "fa2577e1-6786-4910-b056-7d8f617f9cd9")
-		)
-		(pin "21"
-			(uuid "2e4178b0-51a2-485e-b007-e21637f462ca")
-		)
-		(pin "22"
-			(uuid "798371bb-7112-43d9-ba76-d9fdd8e7e2b6")
-		)
-		(pin "24"
-			(uuid "d6db058b-6b03-485c-8d80-050db6201fc8")
-		)
-		(pin "A1"
-			(uuid "d8f6c897-2a32-4040-b346-495f2bc9fd9a")
-		)
-		(pin "A2"
-			(uuid "fa4dd537-8fdf-441c-a54a-7198a45c4fce")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:Rele_2Conm")
+		(lib_id "CA16:Rele_2Conm")
 		(at 110.49 49.53 0)
 		(mirror x)
 		(unit 1)
@@ -7354,6 +6721,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 110.49 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "93ff571f-3296-407d-9206-a793bd02a0e8")
 		)
@@ -7394,79 +6770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 156.21 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "607766ac-6ce2-4c78-a42a-42e10b3b8670")
-		(property "Reference" "#GND010"
-			(at 158.75 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f3435046-c08e-4323-b616-bc4cb47a0a36")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND09")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:R")
+		(lib_id "CA16:R")
 		(at 215.9 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7518,6 +6822,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 215.9 144.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2bac7925-0293-4cef-9bd5-c8e8cf88895b")
 		)
@@ -7540,308 +6853,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 156.21 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "623404d9-4237-4889-b972-4827b0cd8742")
-		(property "Reference" "#GND026"
-			(at 158.75 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c506596-d5c2-4073-beb8-e1cb28ab8d31")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND021")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:Conn_Coaxial")
-		(at 129.54 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6473a9c6-5be1-4d04-9d5c-68e72978c769")
-		(property "Reference" "J8"
-			(at 132.08 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 129.2226 102.87 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:PL_PanelMount"
-			(at 129.54 106.68 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 106.68 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Use" "RF-OUT"
-			(at 132.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "b16f8db1-0c94-494b-9ca9-4e28e86868ce")
-		)
-		(pin "2"
-			(uuid "b8db56e6-1c47-482c-a7c4-c0db96189170")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:C")
-		(at 152.4 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69c6f2f0-be0b-4b01-aeda-7f277ba90b8f")
-		(property "Reference" "C2"
-			(at 138.43 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 142.24 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 153.3652 49.53 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 45.72 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c28daa9f-c807-4ef3-a21e-636524fc1f3c")
-		)
-		(pin "2"
-			(uuid "eefc8c6f-4cf3-4e02-96e1-c2e08b0a71c3")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Cpower:GND")
-		(at 219.71 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b9fd232-1046-4a82-b100-5e3c21f438d4")
-		(property "Reference" "#GND014"
-			(at 222.25 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 220.98 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9767f89-a8ed-452c-a9d7-97a388fa14e5")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND027")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:R")
+		(lib_id "CA16:R")
 		(at 114.3 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7893,6 +6905,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 114.3 144.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4170e41c-d25a-4d60-911e-596527ebe918")
 		)
@@ -7915,7 +6936,7 @@
 		)
 	)
 	(symbol
-		(lib_id "schematic:R")
+		(lib_id "CA16:R")
 		(at 139.7 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7967,6 +6988,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 139.7 144.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43896495-0659-4bb8-8b98-cd18c1e9dd8b")
 		)
@@ -7989,17 +7019,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 129.54 44.45 0)
+		(lib_id "power:GND1")
+		(at 92.71 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d173423-70eb-4b68-947e-574d53c982c9")
-		(property "Reference" "#GND03"
-			(at 132.08 43.18 0)
+		(uuid "7173506c-2a4c-4e8e-af95-a53f6633eae0")
+		(property "Reference" "#PWR08"
+			(at 92.71 73.66 0)
 			(hide yes)
 			(effects
 				(font
@@ -8007,9 +7036,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 130.81 43.18 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 92.964 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8017,7 +7045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 44.45 0)
+			(at 92.71 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -8026,7 +7054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 44.45 0)
+			(at 92.71 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -8034,8 +7062,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 129.54 44.45 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 92.71 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8043,169 +7072,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "923ec188-0ee5-4a91-9b61-becc253be7ed")
+			(uuid "bdeaffd2-ea54-4bdb-9f21-b841f3ec6341")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND01")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 129.54 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f22f46e-04e0-48c1-a244-8cbcde3f6442")
-		(property "Reference" "#GND024"
-			(at 132.08 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b2f542fa-2585-42f4-b753-a69c88047ae9")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND019")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Cpower:GND")
-		(at 227.33 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71a0d4d1-e476-478a-b2b9-ab7420316a3e")
-		(property "Reference" "#GND031"
-			(at 229.87 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77283f64-389b-4fa6-9a7c-4b8125eb9a7d")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND034")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:Conn_Coaxial")
+		(lib_id "CA16:Conn_Coaxial")
 		(at 129.54 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8231,7 +7110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:PL_PanelMount"
+		(property "Footprint" "Cfootprints:SO-239"
 			(at 129.54 36.83 0)
 			(hide yes)
 			(effects
@@ -8266,6 +7145,15 @@
 				(justify left)
 			)
 		)
+		(property "use" ""
+			(at 129.54 36.83 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "858ea9a2-2374-42ce-9873-e432b409976d")
 		)
@@ -8288,79 +7176,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 256.54 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77e40c06-30ed-45bd-9c09-62173eabd07b")
-		(property "Reference" "#GND016"
-			(at 259.08 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.81 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa2eef05-83a2-4fbd-945a-db3bdba56841")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND037")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:D_Filled")
+		(lib_id "CA16:D_Filled")
 		(at 219.71 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8369,7 +7185,7 @@
 		(dnp no)
 		(uuid "7a212c9b-1f63-44f9-888c-fda903a7bd3d")
 		(property "Reference" "D3"
-			(at 203.2 46.99 90)
+			(at 209.296 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +7193,7 @@
 			)
 		)
 		(property "Value" "1n4007"
-			(at 209.55 46.99 90)
+			(at 215.646 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8421,6 +7237,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 219.71 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "use" ""
+			(at 219.71 45.72 90)
 			(hide yes)
 			(effects
 				(font
@@ -8450,17 +7275,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 171.45 114.3 0)
+		(lib_id "power:GND1")
+		(at 234.95 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bfd6b28-68c8-4fba-825b-d4bb0e03c999")
-		(property "Reference" "#GND028"
-			(at 173.99 113.03 0)
+		(uuid "7c1a85de-fa7b-4428-afe9-324c8d0d4abb")
+		(property "Reference" "#PWR016"
+			(at 234.95 73.66 0)
 			(hide yes)
 			(effects
 				(font
@@ -8468,9 +7292,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 172.72 113.03 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 235.204 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8478,7 +7301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 114.3 0)
+			(at 234.95 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -8487,7 +7310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 114.3 0)
+			(at 234.95 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -8495,8 +7318,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 171.45 114.3 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 234.95 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8504,25 +7328,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "46aa77c8-bc0f-4d37-bf22-ec420b1467d5")
+			(uuid "b24e5181-6443-4dfd-8b1d-9c948ab3e2aa")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND011")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND028")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "schematic:D_Filled")
+		(lib_id "power:GND1")
+		(at 215.9 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d510189-f4fb-45e7-95ea-7a8d5828fac3")
+		(property "Reference" "#PWR031"
+			(at 215.9 167.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 216.154 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 215.9 161.29 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "519defb7-4ce9-41b2-9e09-3d4744ea6294")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CA16:D_Filled")
 		(at 92.71 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8531,7 +7414,7 @@
 		(dnp no)
 		(uuid "7f653d10-2cb4-446b-b555-da29e4afb255")
 		(property "Reference" "D4"
-			(at 76.2 91.44 90)
+			(at 82.296 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +7422,7 @@
 			)
 		)
 		(property "Value" "1n4007"
-			(at 82.55 91.44 90)
+			(at 88.646 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,6 +7473,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 92.71 90.17 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "407a0f57-80c0-4a62-9669-e3c7b73861ea")
 		)
@@ -8612,90 +7504,7 @@
 		)
 	)
 	(symbol
-		(lib_id "schematic:Conn_Coaxial")
-		(at 193.04 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80f6ef24-2023-4e96-bf38-31c053fd5151")
-		(property "Reference" "J3"
-			(at 187.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 192.7226 58.42 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:PL_PanelMount"
-			(at 193.04 62.23 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 62.23 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Use" "RF-OUT"
-			(at 187.96 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "0cd36759-ae52-4ac5-8b3d-55cd37842b66")
-		)
-		(pin "2"
-			(uuid "05a7262e-211a-40c2-b936-100a4943173b")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:Rele_2Conm")
+		(lib_id "CA16:Rele_2Conm")
 		(at 173.99 93.98 0)
 		(mirror x)
 		(unit 1)
@@ -8747,6 +7556,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 173.99 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "f193aabd-52b6-438b-8680-a2ba635d20e4")
 		)
@@ -8787,16 +7605,103 @@
 		)
 	)
 	(symbol
-		(lib_id "schematic:Rele_2Conm")
-		(at 237.49 49.53 0)
+		(lib_id "CA16:Conn_Coaxial")
+		(at 129.54 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "82b527e5-3320-424a-962c-4440086624b8")
+		(uuid "871de758-0b9a-46d1-8d5c-2e41bb33f692")
+		(property "Reference" "J6"
+			(at 131.572 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 129.2226 77.47 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cfootprints:SO-239"
+			(at 129.54 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Use" "RF-OUT"
+			(at 131.572 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "use" ""
+			(at 129.54 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff22cf99-e84c-4c9b-b05b-963aa9a17d4c")
+		)
+		(pin "2"
+			(uuid "0661bcf7-ec42-45f8-b6a3-14fde301835f")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CA16:Rele_2Conm")
+		(at 237.49 49.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b7c5b42-f28d-4420-bce2-bbc27a95fc57")
 		(property "Reference" "K3"
-			(at 250.19 55.88 0)
+			(at 250.19 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8838,38 +7743,41 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 237.49 49.53 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
-			(uuid "88e7f56c-6bc8-471c-88d7-38950cf4bb23")
+			(uuid "3f16758f-ff50-4640-958b-d0d006c7bdc7")
 		)
 		(pin "12"
-			(uuid "e53b026b-9d71-4233-ad06-b5e9a8462b17")
+			(uuid "3573db63-c9f1-41a4-9939-227c051211da")
 		)
 		(pin "14"
-			(uuid "92ed31e6-8e7a-4bf1-811d-05327474ae38")
+			(uuid "79573499-f6a8-4fd9-8fba-9357ba406395")
 		)
 		(pin "21"
-			(uuid "52f40e79-79b6-4d9b-b4bc-9b03813e8c68")
+			(uuid "2c00d97c-77e7-4616-9ced-a23fa981694a")
 		)
 		(pin "22"
-			(uuid "4d4e884a-586a-480b-80cf-c0d4cd55d6b4")
+			(uuid "61d0e65e-2089-4c9e-844d-553b21f11c8f")
 		)
 		(pin "24"
-			(uuid "226ca0b5-f7bd-4266-8566-66a1b963f7d3")
+			(uuid "ba250630-037f-403b-ad4c-3f4e0705e136")
 		)
 		(pin "A1"
-			(uuid "26d25c4d-3452-4286-8155-b7dac2cd4b77")
+			(uuid "7b1598cf-b9bb-4e03-b894-2f6f80027e55")
 		)
 		(pin "A2"
-			(uuid "a780c7a5-99e6-4ffd-8023-e52723e9bf06")
+			(uuid "7bd00d66-b195-4a7b-91f1-bdc4dc4de015")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "K3")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
 					(reference "K3")
 					(unit 1)
@@ -8878,17 +7786,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 92.71 114.3 0)
+		(lib_id "power:GND1")
+		(at 39.37 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82c8d278-1d2b-415e-a266-2cc236fd642d")
-		(property "Reference" "#GND022"
-			(at 95.25 113.03 0)
+		(uuid "8c07b79c-06c6-4952-8ac8-daa93ef42cdb")
+		(property "Reference" "#PWR06"
+			(at 39.37 64.77 0)
 			(hide yes)
 			(effects
 				(font
@@ -8896,9 +7803,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 93.98 113.03 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 39.624 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +7812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 114.3 0)
+			(at 39.37 58.42 0)
 			(hide yes)
 			(effects
 				(font
@@ -8915,7 +7821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 114.3 0)
+			(at 39.37 58.42 0)
 			(hide yes)
 			(effects
 				(font
@@ -8923,8 +7829,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 92.71 114.3 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 39.37 58.42 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,35 +7839,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "69c16636-54d6-4739-829e-f24dff35d537")
+			(uuid "ea76f23a-bc67-419f-8b54-8a1d385f5079")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND015")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND022")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 92.71 69.85 0)
+		(lib_id "power:GND1")
+		(at 171.45 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92a581a0-268b-4042-9126-da11d77f342f")
-		(property "Reference" "#GND06"
-			(at 95.25 68.58 0)
+		(uuid "8c402dd1-b9f8-48fe-b2dc-82d90bac9252")
+		(property "Reference" "#PWR022"
+			(at 171.45 118.11 0)
 			(hide yes)
 			(effects
 				(font
@@ -8968,9 +7868,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 93.98 68.58 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 171.704 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8978,7 +7877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 69.85 0)
+			(at 171.45 111.76 0)
 			(hide yes)
 			(effects
 				(font
@@ -8987,7 +7886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 69.85 0)
+			(at 171.45 111.76 0)
 			(hide yes)
 			(effects
 				(font
@@ -8995,8 +7894,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 92.71 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 171.45 111.76 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,25 +7904,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "584f2f04-763c-4773-bc72-db5811e4f977")
+			(uuid "9f1d00e7-bc43-4aac-aebf-76846b49fbae")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND03")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND06")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "schematic:R")
+		(lib_id "power:GND1")
+		(at 92.71 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90bdc5df-08e5-45d6-b46a-de84fb6dc7ca")
+		(property "Reference" "#PWR017"
+			(at 92.71 118.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 92.964 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 92.71 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a913f27a-2f43-428b-87e4-0797bee3fa5a")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CA16:R")
 		(at 88.9 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9074,6 +8033,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 88.9 144.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b4dfe160-24ac-4419-acb1-e482019de2a4")
 		)
@@ -9096,7 +8064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "schematic:Conn_Coaxial")
+		(lib_id "CA16:Conn_Coaxial")
 		(at 193.04 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9104,8 +8072,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9527bade-4d2b-411a-9b76-71a40b18c7bc")
-		(property "Reference" "J6"
-			(at 194.31 82.55 0)
+		(property "Reference" "J7"
+			(at 195.072 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9122,7 +8090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:PL_PanelMount"
+		(property "Footprint" "Cfootprints:SO-239"
 			(at 193.04 81.28 0)
 			(hide yes)
 			(effects
@@ -9149,12 +8117,21 @@
 			)
 		)
 		(property "Use" "RF-OUT"
-			(at 194.31 85.09 0)
+			(at 195.072 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "use" ""
+			(at 193.04 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9172,24 +8149,23 @@
 			)
 			(project "conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 163.83 114.3 0)
+		(lib_id "power:GND1")
+		(at 234.95 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96b9c4fb-e08a-41da-923d-662144eef2e7")
-		(property "Reference" "#GND027"
-			(at 166.37 113.03 0)
+		(uuid "9d766683-584a-40b0-8cd1-d14e758d7132")
+		(property "Reference" "#PWR025"
+			(at 234.95 118.11 0)
 			(hide yes)
 			(effects
 				(font
@@ -9197,9 +8173,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 165.1 113.03 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 235.204 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9207,7 +8182,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 114.3 0)
+			(at 234.95 111.76 0)
 			(hide yes)
 			(effects
 				(font
@@ -9216,7 +8191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 114.3 0)
+			(at 234.95 111.76 0)
 			(hide yes)
 			(effects
 				(font
@@ -9224,8 +8199,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 163.83 114.3 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 234.95 111.76 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9233,97 +8209,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab212d13-b547-494e-a3b0-aaace6d01e53")
+			(uuid "5c4a5cc9-690e-4931-ac04-d4bc0f301d54")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND022")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 88.9 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a257c32b-8024-408d-94d6-f9e92bfb03b6")
-		(property "Reference" "#GND021"
-			(at 91.44 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42ae68a9-250c-4c84-b0f7-6b070eaae2fc")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND014")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:LED_Filled")
+		(lib_id "CA16:LED_Filled")
 		(at 139.7 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9375,6 +8273,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 139.7 154.94 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c9c3784-f058-426d-a057-d942d51b958a")
 		)
@@ -9397,35 +8304,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 193.04 88.9 0)
+		(lib_id "CA16:Rele_2Conm")
+		(at 110.49 93.98 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a615a5c4-7933-44a1-9578-1cabae926f73")
-		(property "Reference" "#GND019"
-			(at 195.58 87.63 0)
-			(hide yes)
+		(uuid "ad8dd371-f5cc-4d92-af94-24c3d836105e")
+		(property "Reference" "K4"
+			(at 123.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 107.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 194.31 87.63 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 88.9 0)
+		(property "Footprint" "Footprints:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+			(at 107.95 93.98 0)
 			(hide yes)
 			(effects
 				(font
@@ -9434,7 +8340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 88.9 0)
+			(at 107.95 93.98 0)
 			(hide yes)
 			(effects
 				(font
@@ -9443,33 +8349,57 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 88.9 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
-			(uuid "57d05b15-d14a-462c-ac8d-cbf6a234c6fe")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND013")
-					(unit 1)
+		(property "use" ""
+			(at 110.49 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
-			(project "conmutador_antenas_1x6"
+		)
+		(pin "11"
+			(uuid "35c01b50-1c6f-4d18-af31-41a602a92cb0")
+		)
+		(pin "12"
+			(uuid "35d6cbab-f918-4218-b22a-0dddd450d0f4")
+		)
+		(pin "14"
+			(uuid "23df2863-cf45-4dfc-9425-b321be309ebb")
+		)
+		(pin "21"
+			(uuid "dfcbb499-aad8-4120-aa2f-19fd5925aef2")
+		)
+		(pin "22"
+			(uuid "3a1956a5-7594-45c4-aca9-d074b46d05d6")
+		)
+		(pin "24"
+			(uuid "5568f25d-b54c-4362-ae00-13df9c064430")
+		)
+		(pin "A1"
+			(uuid "8a8a17da-cab8-4f51-9a31-550b0f450849")
+		)
+		(pin "A2"
+			(uuid "e2915f72-1092-4a55-90a0-a97bfe99c461")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND019")
+					(reference "K4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "schematic:D_Filled")
+		(lib_id "CA16:D_Filled")
 		(at 92.71 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9478,7 +8408,7 @@
 		(dnp no)
 		(uuid "ae702b1e-48fe-43e9-91c3-3c2d6fb9e511")
 		(property "Reference" "D1"
-			(at 76.2 46.99 90)
+			(at 82.296 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +8416,7 @@
 			)
 		)
 		(property "Value" "1n4007"
-			(at 82.55 46.99 90)
+			(at 88.646 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9530,6 +8460,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 92.71 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "use" ""
+			(at 92.71 45.72 90)
 			(hide yes)
 			(effects
 				(font
@@ -9559,7 +8498,72 @@
 		)
 	)
 	(symbol
-		(lib_id "schematic:D_Filled")
+		(lib_id "power:GND1")
+		(at 107.95 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b204b1c2-e048-42e4-9984-d9615d97c94c")
+		(property "Reference" "#PWR019"
+			(at 107.95 118.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 108.204 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 107.95 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25b9e668-6ff8-4226-9eed-4107ec0bb5dc")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CA16:D_Filled")
 		(at 156.21 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9568,7 +8572,7 @@
 		(dnp no)
 		(uuid "b2eb5631-30a5-4c99-8236-952abc613b1d")
 		(property "Reference" "D5"
-			(at 139.7 91.44 90)
+			(at 145.796 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +8580,7 @@
 			)
 		)
 		(property "Value" "1n4007"
-			(at 146.05 91.44 90)
+			(at 152.146 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9627,6 +8631,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 156.21 90.17 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88857351-5a38-4e2f-bfd7-545a2625a075")
 		)
@@ -9649,17 +8662,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 215.9 161.29 0)
+		(lib_id "power:GND1")
+		(at 100.33 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b724495b-9381-4d5a-bc73-4d1ea87b4281")
-		(property "Reference" "#GND038"
-			(at 218.44 160.02 0)
+		(uuid "b92a2d32-eadd-4413-972c-6e4b922fce09")
+		(property "Reference" "#PWR018"
+			(at 100.33 118.11 0)
 			(hide yes)
 			(effects
 				(font
@@ -9667,9 +8679,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 217.17 160.02 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 100.584 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9677,7 +8688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 161.29 0)
+			(at 100.33 111.76 0)
 			(hide yes)
 			(effects
 				(font
@@ -9686,7 +8697,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 161.29 0)
+			(at 100.33 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 100.33 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a7ab7c7-a837-4870-821d-e1759e607933")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CA16:Conn_Coaxial")
+		(at 193.04 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be6b37e3-8abf-4100-8c34-f256e289cd12")
+		(property "Reference" "J2"
+			(at 195.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 192.7226 33.02 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cfootprints:SO-239"
+			(at 193.04 36.83 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 36.83 0)
 			(hide yes)
 			(effects
 				(font
@@ -9695,7 +8772,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 161.29 0)
+			(at 193.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Use" "RF-OUT"
+			(at 195.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "use" ""
+			(at 193.04 36.83 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,35 +8798,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "27ac7b2c-eb32-4017-a597-c70b09f80557")
+			(uuid "84f16088-6a89-46a6-8231-28a9b1f4ee91")
+		)
+		(pin "2"
+			(uuid "5d4234a5-3528-4950-bdee-7921d9d4bd0e")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND049")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND038")
+					(reference "J2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 107.95 69.85 0)
+		(lib_id "power:GND1")
+		(at 139.7 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b77056da-a97d-4388-add0-e2c747cad91f")
-		(property "Reference" "#GND08"
-			(at 110.49 68.58 0)
+		(uuid "c32e705e-383e-4f9b-9ace-e33898a50786")
+		(property "Reference" "#PWR028"
+			(at 139.7 166.37 0)
 			(hide yes)
 			(effects
 				(font
@@ -9739,9 +8830,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 109.22 68.58 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 139.954 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +8839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 69.85 0)
+			(at 139.7 160.02 0)
 			(hide yes)
 			(effects
 				(font
@@ -9758,7 +8848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 69.85 0)
+			(at 139.7 160.02 0)
 			(hide yes)
 			(effects
 				(font
@@ -9766,8 +8856,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 107.95 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 139.7 160.02 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,97 +8866,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "aba6ca39-fb48-4e7a-a502-48a6dc4f44b9")
+			(uuid "fc58b423-4def-4144-89d7-21bd671d0a98")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND05")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND08")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 88.9 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1186580-f537-4dd7-ac13-a71ec8c47823")
-		(property "Reference" "#GND05"
-			(at 91.44 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ab1cfe8-9593-4c98-87e3-ac63f9b97472")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND02")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:LED_Filled")
+		(lib_id "CA16:LED_Filled")
 		(at 165.1 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9917,6 +8930,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 165.1 154.94 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d810c0e-1e17-4c27-ab26-ae2853146619")
 		)
@@ -9939,7 +8961,7 @@
 		)
 	)
 	(symbol
-		(lib_id "schematic:Screw_Terminal_01x07")
+		(lib_id "CA16:Screw_Terminal_01x07")
 		(at 31.75 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9947,7 +8969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd741832-26db-4c6d-8235-e1501841d7aa")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 30.226 34.29 0)
 			(effects
 				(font
@@ -10000,6 +9022,15 @@
 				(justify right)
 			)
 		)
+		(property "use" ""
+			(at 31.75 46.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "369e8466-3281-4d9c-b0e1-8828c0bb65d2")
 		)
@@ -10030,14 +9061,14 @@
 			)
 			(project "conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "schematic:LED_Filled")
+		(lib_id "CA16:LED_Filled")
 		(at 190.5 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10089,6 +9120,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 190.5 154.94 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4e4bdbd9-e4d6-4965-a64b-4d73210df1f4")
 		)
@@ -10111,17 +9151,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 100.33 69.85 0)
+		(lib_id "power:GND1")
+		(at 107.95 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5600d3e-742a-43fd-b604-cd4ea217567d")
-		(property "Reference" "#GND07"
-			(at 102.87 68.58 0)
+		(uuid "d366b2ee-2143-45b6-a9d9-aa742260c8c9")
+		(property "Reference" "#PWR010"
+			(at 107.95 73.66 0)
 			(hide yes)
 			(effects
 				(font
@@ -10129,9 +9168,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 101.6 68.58 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 108.204 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10139,7 +9177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 69.85 0)
+			(at 107.95 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -10148,7 +9186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 69.85 0)
+			(at 107.95 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -10156,8 +9194,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 100.33 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 107.95 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10165,35 +9204,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ecc8fdb-9f33-4e58-bc31-f425ce4eb20d")
+			(uuid "8fd3c8a2-a85f-4c82-9853-e1615c3c2276")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND06")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 139.7 161.29 0)
+		(lib_id "power:GND1")
+		(at 165.1 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbcc5a9e-003d-4d86-8baa-67995cebad7c")
-		(property "Reference" "#GND035"
-			(at 142.24 160.02 0)
+		(uuid "dd6987c9-9bfa-4d1d-96b3-27f2865077b0")
+		(property "Reference" "#PWR029"
+			(at 165.1 166.37 0)
 			(hide yes)
 			(effects
 				(font
@@ -10201,9 +9233,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 140.97 160.02 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 165.354 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10211,7 +9242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 161.29 0)
+			(at 165.1 160.02 0)
 			(hide yes)
 			(effects
 				(font
@@ -10220,7 +9251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 161.29 0)
+			(at 165.1 160.02 0)
 			(hide yes)
 			(effects
 				(font
@@ -10228,8 +9259,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 139.7 161.29 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 165.1 160.02 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10237,25 +9269,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fc498e5-dddc-4c2f-abdd-b15544b3e1b9")
+			(uuid "1c8933ff-dc03-48a0-bdf5-455ec3e26b5f")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND043")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND035")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "schematic:LED_Filled")
+		(lib_id "CA16:LED_Filled")
 		(at 88.9 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10307,6 +9333,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 88.9 154.94 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "927f4a57-9d9f-44d6-9bec-e421fdf8b71c")
 		)
@@ -10329,17 +9364,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 31.75 85.09 0)
+		(lib_id "power:GND1")
+		(at 190.5 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddd269dc-b5ec-45d1-a787-464abf2004b0")
-		(property "Reference" "#GND017"
-			(at 34.29 83.82 0)
+		(uuid "ddc233c9-cb40-419d-a8a5-5283f9dc7a1e")
+		(property "Reference" "#PWR030"
+			(at 190.5 166.37 0)
 			(hide yes)
 			(effects
 				(font
@@ -10347,9 +9381,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 33.02 83.82 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 190.754 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10357,7 +9390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 85.09 0)
+			(at 190.5 160.02 0)
 			(hide yes)
 			(effects
 				(font
@@ -10366,7 +9399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 85.09 0)
+			(at 190.5 160.02 0)
 			(hide yes)
 			(effects
 				(font
@@ -10374,8 +9407,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 31.75 85.09 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 190.5 160.02 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,25 +9417,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e60e26a-b973-4e2e-8a5b-10e89366e36c")
+			(uuid "754ceb4d-60a4-497a-8a5c-2df01943243a")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND07")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND017")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "schematic:D_Filled")
+		(lib_id "CA16:D_Filled")
 		(at 219.71 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10410,7 +9438,7 @@
 		(dnp no)
 		(uuid "de4719d4-daa9-4113-b0a3-e690ad82b690")
 		(property "Reference" "D6"
-			(at 203.2 91.44 90)
+			(at 209.296 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,7 +9446,7 @@
 			)
 		)
 		(property "Value" "1n4007"
-			(at 209.55 91.44 90)
+			(at 215.646 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10469,6 +9497,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 219.71 90.17 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b8f64c81-b471-4032-add4-38b2982ed406")
 		)
@@ -10491,106 +9528,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 165.1 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df680f03-2bb5-44ca-b545-3cf971f3f581")
-		(property "Reference" "#GND036"
-			(at 167.64 160.02 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 160.02 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 161.29 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 161.29 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5941e17b-6f12-4cac-b50b-77e3de6f7a4c")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND045")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:C")
-		(at 215.9 45.72 0)
+		(lib_id "power:GND1")
+		(at 227.33 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e0281d5e-f6a0-4c5a-bb17-d13ab018c0af")
-		(property "Reference" "C3"
-			(at 201.93 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 205.74 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 216.8652 49.53 0)
+		(uuid "de7ac76a-0caa-472d-958d-8522067d5de7")
+		(property "Reference" "#PWR024"
+			(at 227.33 118.11 0)
 			(hide yes)
 			(effects
 				(font
@@ -10598,66 +9545,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 215.9 45.72 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "716bf0e2-fb75-4626-9e33-7b0bb8d63140")
-		)
-		(pin "2"
-			(uuid "14768df7-c0d5-4693-8d73-ff183e5bea37")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Cpower:GND")
-		(at 215.9 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e53333b2-df2f-42a2-b289-88dcafaa89bc")
-		(property "Reference" "#GND029"
-			(at 218.44 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 113.03 0)
-			(hide yes)
+		(property "Value" "GND1"
+			(at 227.584 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +9554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 114.3 0)
+			(at 227.33 111.76 0)
 			(hide yes)
 			(effects
 				(font
@@ -10674,7 +9563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 114.3 0)
+			(at 227.33 111.76 0)
 			(hide yes)
 			(effects
 				(font
@@ -10682,8 +9571,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 215.9 114.3 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 227.33 111.76 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10691,25 +9581,149 @@
 			)
 		)
 		(pin "1"
-			(uuid "86d30e28-0b5f-4518-8c07-9417be5464b8")
+			(uuid "bd6894a1-85ca-40ed-baba-f495a9f48e82")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND032")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND029")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "schematic:R")
+		(lib_id "power:GND1")
+		(at 129.54 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e04f648f-3c48-44a8-bddb-176ce00416c9")
+		(property "Reference" "#PWR037"
+			(at 129.54 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 129.794 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 129.54 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8243832-34fd-4cc7-a003-d33b3ac99449")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 163.83 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5ebd100-f9df-4683-abf6-7e7ec3ff7545")
+		(property "Reference" "#PWR012"
+			(at 163.83 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 164.084 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 163.83 67.31 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "706899fa-a71d-441b-8324-008a9c33882d")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CA16:R")
 		(at 165.1 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10761,6 +9775,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 165.1 144.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d79eb7c9-2380-4645-991d-d2d11e58749c")
 		)
@@ -10783,7 +9806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "schematic:D_Filled")
+		(lib_id "CA16:D_Filled")
 		(at 156.21 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10792,7 +9815,7 @@
 		(dnp no)
 		(uuid "e7388f62-18a1-4544-a8a8-2ae090b67f2e")
 		(property "Reference" "D2"
-			(at 139.7 46.99 90)
+			(at 145.796 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +9823,7 @@
 			)
 		)
 		(property "Value" "1n4007"
-			(at 146.05 46.99 90)
+			(at 152.146 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,6 +9874,15 @@
 				)
 			)
 		)
+		(property "use" ""
+			(at 156.21 45.72 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f0cfd265-0779-43a4-a013-3f112f510dce")
 		)
@@ -10873,378 +9905,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Cpower:GND")
-		(at 193.04 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e785584f-da9d-4859-bd08-d77a8251bfa8")
-		(property "Reference" "#GND012"
-			(at 195.58 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 68.58 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 69.85 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ec03d50-f3f8-4a2e-a545-bf3083a5bbf8")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND025")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Cpower:GND")
-		(at 219.71 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8d402b8-d7a6-4fe0-9cc8-91f16c8135f3")
-		(property "Reference" "#GND030"
-			(at 222.25 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 220.98 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3ac83ad-146b-4767-a335-dcebec605355")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND033")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:C")
-		(at 215.9 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9999f66-90e2-475f-b252-4430927abbc1")
-		(property "Reference" "C6"
-			(at 201.93 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 205.74 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 216.8652 93.98 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 90.17 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "291d4600-9996-4d97-97c0-b66c6bea67cc")
-		)
-		(pin "2"
-			(uuid "83a477b8-0e1f-46f6-a582-3004ec9e1698")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Cpower:GND")
-		(at 234.95 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea75a55c-c1ea-455b-8a82-df799fc7a097")
-		(property "Reference" "#GND032"
-			(at 237.49 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "357147f3-652a-43d0-8b47-b7e06de97e1c")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND029")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Cpower:GND")
-		(at 152.4 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eee69a4e-7378-48fe-b75b-50d507603ee7")
-		(property "Reference" "#GND025"
-			(at 154.94 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 113.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 114.3 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d48f627c-6c2b-4efc-a83b-fceb8645fb8d")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "#GND020")
-					(unit 1)
-				)
-			)
-			(project "conmutador_antenas_1x6"
-				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "#GND025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematic:Conn_Coaxial")
+		(lib_id "CA16:Conn_Coaxial")
 		(at 256.54 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f4d1c607-d738-4ea1-bcb8-6c145785e1a8")
-		(property "Reference" "J7"
-			(at 254 74.93 0)
+		(uuid "e7dc972f-6c7c-48fe-8c85-ce3f5ee5954a")
+		(property "Reference" "J8"
+			(at 258.572 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11261,7 +9931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:PL_PanelMount"
+		(property "Footprint" "Cfootprints:SO-239"
 			(at 256.54 81.28 0)
 			(hide yes)
 			(effects
@@ -11288,7 +9958,7 @@
 			)
 		)
 		(property "Use" "RF-OUT"
-			(at 254 77.47 0)
+			(at 258.572 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11296,56 +9966,58 @@
 				(justify left)
 			)
 		)
-		(pin "1"
-			(uuid "d691886d-e4b9-4d3a-9204-5a82aa8527c1")
-		)
-		(pin "2"
-			(uuid "ae086014-99a4-4887-b9a4-678f79b6708b")
-		)
-		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "J8")
-					(unit 1)
+		(property "use" ""
+			(at 256.54 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
-			(project "conmutador_antenas_1x6"
+		)
+		(pin "1"
+			(uuid "c47c7a2b-2386-4522-b20a-fd1d67058d84")
+		)
+		(pin "2"
+			(uuid "72f34d25-7c5f-4e0c-bc9c-fd17669ffe2e")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "schematic:C")
-		(at 88.9 45.72 0)
+		(lib_id "power:GND1")
+		(at 227.33 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f9e77c5e-4135-47ff-a294-0a76e1aa3262")
-		(property "Reference" "C1"
-			(at 74.93 44.45 0)
+		(uuid "f551ea72-7b57-417e-9139-282236c95443")
+		(property "Reference" "#PWR015"
+			(at 227.33 73.66 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 78.74 44.45 0)
+		(property "Value" "GND1"
+			(at 227.584 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 89.8652 49.53 0)
+		(property "Footprint" ""
+			(at 227.33 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -11354,7 +10026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 45.72 0)
+			(at 227.33 67.31 0)
 			(hide yes)
 			(effects
 				(font
@@ -11362,8 +10034,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 88.9 45.72 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 227.33 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11371,21 +10044,207 @@
 			)
 		)
 		(pin "1"
-			(uuid "972cf1a9-9c38-49e2-b122-93bfd984c933")
-		)
-		(pin "2"
-			(uuid "0264ca83-9df9-4d2a-83dc-6b19e606d02a")
+			(uuid "7b44bbf1-27e6-43d9-b7b1-2d0a22248731")
 		)
 		(instances
-			(project "conmutador_antenas_1x6"
-				(path "/2f3907c9-15be-492f-befe-0e8a781376d1"
-					(reference "C1")
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
-			(project "conmutador_antenas_1x6"
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 256.54 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd58a10d-3fa7-4410-b67d-df90c0746924")
+		(property "Reference" "#PWR035"
+			(at 256.54 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 256.794 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 256.54 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccd88c95-632d-4123-bf17-3cc16acd70a0")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
 				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
-					(reference "C1")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 193.04 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdae8e41-6f84-4c92-946b-a9c6a92eaff8")
+		(property "Reference" "#PWR036"
+			(at 193.04 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 193.294 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 193.04 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4332dfb-fa9b-48d1-a112-df5c93b08638")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 219.71 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffdd16c0-54be-4945-863e-6ed1d60cacf5")
+		(property "Reference" "#PWR023"
+			(at 219.71 118.11 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 219.964 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 219.71 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce4fdcf4-69f1-4818-955d-d97850c5e859")
+		)
+		(instances
+			(project "Conmutador_antenas_1x6"
+				(path "/72f3b6e6-da3c-4000-9d71-e795e53b6cc6/5ca5cf36-3ee0-47b7-90c3-546bde410e83"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
